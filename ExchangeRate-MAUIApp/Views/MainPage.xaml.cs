@@ -6,16 +6,16 @@ namespace ExchangeRate_MAUIApp.Views;
 public partial class MainPage : ContentPage
 {
 	private readonly ExchangeRateViewModel _viewModel;
-	public MainPage()
+	public MainPage(ExchangeRateViewModel viewModel)
 	{
 		InitializeComponent();
-		_viewModel = new ExchangeRateViewModel(new ExchangeRateService());
+		_viewModel = viewModel;
 		BindingContext = _viewModel;
 	}
 
 	private async void OnShowChartClicked(object sender, EventArgs e)
 	{
-		await Shell.Current.GoToAsync("///ChartPage");
+		await Shell.Current.GoToAsync("ChartPage");
 	}
 
 	protected override async void OnAppearing()

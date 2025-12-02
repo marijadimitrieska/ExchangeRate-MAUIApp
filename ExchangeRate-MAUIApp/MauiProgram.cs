@@ -3,7 +3,9 @@ using ExchangeRate_MAUIApp.ViewModels;
 using ExchangeRate_MAUIApp.Views;
 using Microcharts.Maui;
 using Microsoft.Extensions.Logging;
+using OxyPlot.Maui.Skia;
 using SkiaSharp.Views.Maui.Controls.Hosting;
+using Telerik.Maui.Controls.Compatibility;
 
 namespace ExchangeRate_MAUIApp
 {
@@ -15,6 +17,8 @@ namespace ExchangeRate_MAUIApp
             builder
                 .UseMauiApp<App>()
                 .UseSkiaSharp()
+                .UseOxyPlotSkia()
+                .UseTelerik()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

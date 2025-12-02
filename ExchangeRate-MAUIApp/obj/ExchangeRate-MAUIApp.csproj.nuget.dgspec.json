@@ -30,6 +30,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for .NET MAUI 12.0.0\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -90,8 +91,12 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[9.0.11, )",
               "autoReferenced": true
+            },
+            "OxyPlot.Maui.Skia": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             },
             "SkiaSharp.Views.Maui.Controls": {
               "target": "Package",
@@ -108,6 +113,10 @@
             "System.ObjectModel": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "Telerik.UI.for.Maui": {
+              "target": "Package",
+              "version": "[12.0.0, )"
             }
           },
           "imports": [
@@ -121,12 +130,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -135,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-ios26.0": {
           "targetAlias": "net9.0-ios",
@@ -163,8 +166,12 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[9.0.11, )",
               "autoReferenced": true
+            },
+            "OxyPlot.Maui.Skia": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             },
             "SkiaSharp.Views.Maui.Controls": {
               "target": "Package",
@@ -181,6 +188,10 @@
             "System.ObjectModel": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "Telerik.UI.for.Maui": {
+              "target": "Package",
+              "version": "[12.0.0, )"
             }
           },
           "imports": [
@@ -194,12 +205,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -208,7 +213,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-maccatalyst26.0": {
           "targetAlias": "net9.0-maccatalyst",
@@ -236,8 +241,12 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )",
+              "version": "[9.0.11, )",
               "autoReferenced": true
+            },
+            "OxyPlot.Maui.Skia": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             },
             "SkiaSharp.Views.Maui.Controls": {
               "target": "Package",
@@ -254,6 +263,10 @@
             "System.ObjectModel": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "Telerik.UI.for.Maui": {
+              "target": "Package",
+              "version": "[12.0.0, )"
             }
           },
           "imports": [
@@ -268,12 +281,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.MacCatalyst": {
               "privateAssets": "all"
@@ -282,7 +289,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
@@ -307,6 +314,10 @@
               "target": "Package",
               "version": "[9.0.111, )"
             },
+            "OxyPlot.Maui.Skia": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "SkiaSharp.Views.Maui.Controls": {
               "target": "Package",
               "version": "[3.119.1, )"
@@ -322,6 +333,10 @@
             "System.ObjectModel": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "Telerik.UI.for.Maui": {
+              "target": "Package",
+              "version": "[12.0.0, )"
             }
           },
           "imports": [
@@ -349,7 +364,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

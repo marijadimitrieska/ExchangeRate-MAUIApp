@@ -1,31 +1,87 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ExchangeRate_MAUIApp.Views.ChartPage"
-             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             xmlns:oxy="clr-namespace:OxyPlot.Maui.Skia;assembly=OxyPlot.Maui.Skia"
              Title="График на валута">
 
-  
+    <ScrollView>
         <VerticalStackLayout Padding="15" Spacing="10">
-        <Label Text="Избери период и валута" FontSize="20" HorizontalOptions="Center"/>
-        <HorizontalStackLayout Spacing="10">
-                <DatePicker Date="{Binding StartDate}"/>
-                <DatePicker Date="{Binding EndDate}"/>
+            <Label Text="Избери период и валута" FontSize="20" HorizontalOptions="Center"/>
+            <HorizontalStackLayout Spacing="10">
+                <telerik:RadDatePicker x:Name="StartDate" 
+                                       Date="{Binding StartDate}"
+                                       DisplayStringFormat="dd.MM.yyyy"
+                                       WidthRequest="150">
+                </telerik:RadDatePicker>
+                <telerik:RadDatePicker x:Name="EndDate"
+                                       Date="{Binding EndDate}"
+                                       DisplayStringFormat="dd.MM.yyyy"
+                                       WidthRequest="150">
+                </telerik:RadDatePicker>
+
                 <Button Text="LOAD" Command="{Binding LoadTodayCommand}"/>
-                
+
             </HorizontalStackLayout>
 
-            <Entry Placeholder="Внеси валута (MKD, EUR, USD ...)" 
-                   Text="{Binding SelectedCurrency}"/>
+            <telerik:RadListPicker x:Name="SelectedCurrency" 
+                                   ItemsSource="{Binding Currencies}"
+                                   SelectedItem="{Binding SelectedCurrency}"
+                                   HorizontalOptions="Fill">
+            </telerik:RadListPicker>
+
+            <!--<Picker Title="Избери валута" 
+                ItemsSource="{Binding Currencies}"
+                SelectedItem="{Binding SelectedCurrency}"
+                HorizontalOptions="Fill"
+                 />-->
+
+
 
             <Button Text="Прикажи график"
                     Command="{Binding LoadChartCommand}"/>
 
-            <Frame CornerRadius="10" Padding="10" BackgroundColor="#F0F0F0">
-                <microcharts:ChartView Chart="{Binding ChartModel}" HeightRequest="300"/>
+            <telerik:RadCartesianChart x:Name="chart" HeightRequest="350">
+                <telerik:RadCartesianChart.HorizontalAxis>
+                    <telerik:DateTimeContinuousAxis
+                        LabelFormat="dd.MM.yyyy"
+                        LabelFitMode="Rotate"
+                        MajorStepUnit="Day"
+                        PlotMode="OnTicks">
 
-            </Frame>
+                    </telerik:DateTimeContinuousAxis>
+                </telerik:RadCartesianChart.HorizontalAxis>
+
+                <telerik:RadCartesianChart.VerticalAxis>
+                    <telerik:NumericalAxis />
+                </telerik:RadCartesianChart.VerticalAxis>
+
+                <telerik:RadCartesianChart.Series>
+                    <telerik:BarSeries ItemsSource="{Binding DataChart}"
+                                      >
+
+                        <telerik:BarSeries.ValueBinding>
+                            <telerik:PropertyNameDataPointBinding PropertyName="Rate" />
+                        </telerik:BarSeries.ValueBinding>
+                        <telerik:BarSeries.CategoryBinding>
+                            <telerik:PropertyNameDataPointBinding PropertyName="Date" />
+                        </telerik:BarSeries.CategoryBinding>
+                    </telerik:BarSeries>
+                </telerik:RadCartesianChart.Series>
+            </telerik:RadCartesianChart>
+
+            <!--<oxy:PlotView Model="{Binding PlotModel}" 
+                      HeightRequest="300"
+                      HorizontalOptions="Fill"
+                      VerticalOptions="FillAndExpand"/>-->
+          
+            <Button Text="Назад кон курсна листа"
+       Clicked="OnBackToMainPageClicked"
+           VerticalOptions="Start"
+           HorizontalOptions="Start"
+           Margin="10"></Button>
+
         </VerticalStackLayout>
-
-   
+    </ScrollView>
 </ContentPage>

@@ -8,6 +8,7 @@ namespace ExchangeRate_MAUIApp
         {
             InitializeComponent();
             Routing.RegisterRoute("ChartPage", typeof(ChartPage));
+            Routing.RegisterRoute("MainPage", typeof(MainPage));
         }
     }
 }

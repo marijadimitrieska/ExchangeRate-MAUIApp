@@ -226,7 +226,7 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[35];
+            _typeNameTable = new string[136];
             _typeNameTable[0] = "Microsoft.Maui.MauiWinUIApplication";
             _typeNameTable[1] = "Microsoft.UI.Xaml.Application";
             _typeNameTable[2] = "Microsoft.UI.Xaml.LaunchActivatedEventArgs";
@@ -262,8 +262,109 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
             _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
             _typeNameTable[33] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
             _typeNameTable[34] = "Int32";
+            _typeNameTable[35] = "Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.ExtendedGroupHeader";
+            _typeNameTable[36] = "Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader";
+            _typeNameTable[37] = "Telerik.UI.Xaml.Controls.RadContentControl";
+            _typeNameTable[38] = "Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView";
+            _typeNameTable[39] = "Telerik.UI.Xaml.Controls.Data.RadListView";
+            _typeNameTable[40] = "Telerik.UI.Xaml.Controls.RadControl";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[42] = "Telerik.Maui.Controls.Compatibility.DataControls.RadListView";
+            _typeNameTable[43] = "Telerik.Maui.Controls.Compatibility.DataControls.FormsListViewControlBase";
+            _typeNameTable[44] = "Telerik.Maui.Controls.RadView";
+            _typeNameTable[45] = "Microsoft.Maui.Controls.View";
+            _typeNameTable[46] = "Microsoft.Maui.Controls.VisualElement";
+            _typeNameTable[47] = "Microsoft.Maui.Controls.NavigableElement";
+            _typeNameTable[48] = "Microsoft.Maui.Controls.StyleableElement";
+            _typeNameTable[49] = "Microsoft.Maui.Controls.Element";
+            _typeNameTable[50] = "Microsoft.Maui.Controls.BindableObject";
+            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.ScrollBarVisibility";
+            _typeNameTable[52] = "Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode";
+            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.Orientation";
+            _typeNameTable[54] = "Telerik.UI.Xaml.Controls.Data.ListViewGroupHeaderDisplayMode";
+            _typeNameTable[55] = "Telerik.UI.Xaml.Controls.Data.ListView.Commands.CommandService";
+            _typeNameTable[56] = "Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>";
+            _typeNameTable[57] = "Telerik.UI.Xaml.Controls.Primitives.ServiceBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>";
+            _typeNameTable[58] = "Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Data.RadListView>";
+            _typeNameTable[59] = "Telerik.UI.Xaml.Controls.Primitives.RadDependencyObject";
+            _typeNameTable[60] = "Telerik.Core.Data.BatchLoadingMode";
+            _typeNameTable[61] = "Telerik.UI.Xaml.Controls.Data.ListView.LayoutDefinitionBase";
+            _typeNameTable[62] = "Telerik.Core.ViewModelBase";
+            _typeNameTable[63] = "Telerik.Data.Core.SortDescriptorCollection";
+            _typeNameTable[64] = "Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.SortDescriptorBase>";
+            _typeNameTable[65] = "Telerik.Core.BindableCollection`1<Telerik.Data.Core.SortDescriptorBase>";
+            _typeNameTable[66] = "System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.SortDescriptorBase>";
+            _typeNameTable[67] = "System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.SortDescriptorBase>";
+            _typeNameTable[68] = "Telerik.Data.Core.SortDescriptorBase";
+            _typeNameTable[69] = "Telerik.Data.Core.OrderedDescriptor";
+            _typeNameTable[70] = "Telerik.Data.Core.DataDescriptor";
+            _typeNameTable[71] = "System.Collections.IComparer";
+            _typeNameTable[72] = "Telerik.Data.Core.SortOrder";
+            _typeNameTable[73] = "Telerik.Data.Core.GroupDescriptorCollection";
+            _typeNameTable[74] = "Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.GroupDescriptorBase>";
+            _typeNameTable[75] = "Telerik.Core.BindableCollection`1<Telerik.Data.Core.GroupDescriptorBase>";
+            _typeNameTable[76] = "System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.GroupDescriptorBase>";
+            _typeNameTable[77] = "System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.GroupDescriptorBase>";
+            _typeNameTable[78] = "Telerik.Data.Core.GroupDescriptorBase";
+            _typeNameTable[79] = "Telerik.Data.Core.FilterDescriptorCollection";
+            _typeNameTable[80] = "Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.FilterDescriptorBase>";
+            _typeNameTable[81] = "Telerik.Core.BindableCollection`1<Telerik.Data.Core.FilterDescriptorBase>";
+            _typeNameTable[82] = "System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.FilterDescriptorBase>";
+            _typeNameTable[83] = "System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.FilterDescriptorBase>";
+            _typeNameTable[84] = "Telerik.Data.Core.FilterDescriptorBase";
+            _typeNameTable[85] = "Telerik.Data.Core.AggregateDescriptorCollection";
+            _typeNameTable[86] = "Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.AggregateDescriptorBase>";
+            _typeNameTable[87] = "Telerik.Core.BindableCollection`1<Telerik.Data.Core.AggregateDescriptorBase>";
+            _typeNameTable[88] = "System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.AggregateDescriptorBase>";
+            _typeNameTable[89] = "System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.AggregateDescriptorBase>";
+            _typeNameTable[90] = "Telerik.Data.Core.AggregateDescriptorBase";
+            _typeNameTable[91] = "Telerik.UI.Xaml.Controls.Primitives.CommandCollection`1<Telerik.UI.Xaml.Controls.Data.RadListView>";
+            _typeNameTable[92] = "Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection`2<Telerik.UI.Xaml.Controls.Data.RadListView, Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>";
+            _typeNameTable[93] = "Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>";
+            _typeNameTable[94] = "System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>";
+            _typeNameTable[95] = "System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>";
+            _typeNameTable[96] = "Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>";
+            _typeNameTable[97] = "Telerik.Core.RadAnimation";
+            _typeNameTable[98] = "Telerik.UI.Xaml.Controls.Data.ItemAnimationMode";
+            _typeNameTable[99] = "Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection";
+            _typeNameTable[100] = "Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshScrollMode";
+            _typeNameTable[101] = "Telerik.UI.Xaml.Controls.Data.ListViewReorderMode";
+            _typeNameTable[102] = "Telerik.Core.BindableCollection`1<Object>";
+            _typeNameTable[103] = "System.Collections.ObjectModel.ObservableCollection`1<Object>";
+            _typeNameTable[104] = "System.Collections.ObjectModel.Collection`1<Object>";
+            _typeNameTable[105] = "Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode";
+            _typeNameTable[106] = "Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter";
+            _typeNameTable[107] = "Microsoft.UI.Xaml.FrameworkElement";
+            _typeNameTable[108] = "Microsoft.UI.Xaml.Media.Animation.Storyboard";
+            _typeNameTable[109] = "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu";
+            _typeNameTable[110] = "Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>";
+            _typeNameTable[111] = "System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>";
+            _typeNameTable[112] = "System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>";
+            _typeNameTable[113] = "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem";
+            _typeNameTable[114] = "System.Windows.Input.ICommand";
+            _typeNameTable[115] = "Microsoft.UI.Xaml.Media.Brush";
+            _typeNameTable[116] = "Telerik.UI.Xaml.Controls.Navigation.Menu.CommandService";
+            _typeNameTable[117] = "Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>";
+            _typeNameTable[118] = "Telerik.UI.Xaml.Controls.Primitives.ServiceBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>";
+            _typeNameTable[119] = "Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>";
+            _typeNameTable[120] = "Telerik.UI.Xaml.Controls.Primitives.CommandCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>";
+            _typeNameTable[121] = "Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection`2<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu, Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>";
+            _typeNameTable[122] = "Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>";
+            _typeNameTable[123] = "System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>";
+            _typeNameTable[124] = "System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>";
+            _typeNameTable[125] = "Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>";
+            _typeNameTable[126] = "Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior";
+            _typeNameTable[127] = "Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Microsoft.UI.Xaml.FrameworkElement>";
+            _typeNameTable[128] = "Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers";
+            _typeNameTable[129] = "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition";
+            _typeNameTable[130] = "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation";
+            _typeNameTable[131] = "Microsoft.UI.Xaml.HorizontalAlignment";
+            _typeNameTable[132] = "Microsoft.UI.Xaml.VerticalAlignment";
+            _typeNameTable[133] = "Telerik.UI.Xaml.Controls.Chart.ChartPalette";
+            _typeNameTable[134] = "Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection";
+            _typeNameTable[135] = "System.Collections.Generic.List`1<Microsoft.UI.Xaml.Media.Brush>";
 
-            _typeTable = new global::System.Type[35];
+            _typeTable = new global::System.Type[136];
             _typeTable[0] = typeof(global::Microsoft.Maui.MauiWinUIApplication);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.Application);
             _typeTable[2] = typeof(global::Microsoft.UI.Xaml.LaunchActivatedEventArgs);
@@ -299,6 +400,109 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
             _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
             _typeTable[33] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
             _typeTable[34] = typeof(global::System.Int32);
+            _typeTable[35] = typeof(global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.ExtendedGroupHeader);
+            _typeTable[36] = typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader);
+            _typeTable[37] = typeof(global::Telerik.UI.Xaml.Controls.RadContentControl);
+            _typeTable[38] = typeof(global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView);
+            _typeTable[39] = typeof(global::Telerik.UI.Xaml.Controls.Data.RadListView);
+            _typeTable[40] = typeof(global::Telerik.UI.Xaml.Controls.RadControl);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+#pragma warning disable 0618  //   Warning on Deprecated usage
+            _typeTable[42] = typeof(global::Telerik.Maui.Controls.Compatibility.DataControls.RadListView);
+#pragma warning restore 0618
+            _typeTable[43] = typeof(global::Telerik.Maui.Controls.Compatibility.DataControls.FormsListViewControlBase);
+            _typeTable[44] = typeof(global::Telerik.Maui.Controls.RadView);
+            _typeTable[45] = typeof(global::Microsoft.Maui.Controls.View);
+            _typeTable[46] = typeof(global::Microsoft.Maui.Controls.VisualElement);
+            _typeTable[47] = typeof(global::Microsoft.Maui.Controls.NavigableElement);
+            _typeTable[48] = typeof(global::Microsoft.Maui.Controls.StyleableElement);
+            _typeTable[49] = typeof(global::Microsoft.Maui.Controls.Element);
+            _typeTable[50] = typeof(global::Microsoft.Maui.Controls.BindableObject);
+            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollBarVisibility);
+            _typeTable[52] = typeof(global::Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode);
+            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.Orientation);
+            _typeTable[54] = typeof(global::Telerik.UI.Xaml.Controls.Data.ListViewGroupHeaderDisplayMode);
+            _typeTable[55] = typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.Commands.CommandService);
+            _typeTable[56] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>);
+            _typeTable[57] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.ServiceBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>);
+            _typeTable[58] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Telerik.UI.Xaml.Controls.Data.RadListView>);
+            _typeTable[59] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.RadDependencyObject);
+            _typeTable[60] = typeof(global::Telerik.Core.Data.BatchLoadingMode);
+            _typeTable[61] = typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.LayoutDefinitionBase);
+            _typeTable[62] = typeof(global::Telerik.Core.ViewModelBase);
+            _typeTable[63] = typeof(global::Telerik.Data.Core.SortDescriptorCollection);
+            _typeTable[64] = typeof(global::Telerik.Data.Core.DataDescriptorCollection<global::Telerik.Data.Core.SortDescriptorBase>);
+            _typeTable[65] = typeof(global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.SortDescriptorBase>);
+            _typeTable[66] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.SortDescriptorBase>);
+            _typeTable[67] = typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.SortDescriptorBase>);
+            _typeTable[68] = typeof(global::Telerik.Data.Core.SortDescriptorBase);
+            _typeTable[69] = typeof(global::Telerik.Data.Core.OrderedDescriptor);
+            _typeTable[70] = typeof(global::Telerik.Data.Core.DataDescriptor);
+            _typeTable[71] = typeof(global::System.Collections.IComparer);
+            _typeTable[72] = typeof(global::Telerik.Data.Core.SortOrder);
+            _typeTable[73] = typeof(global::Telerik.Data.Core.GroupDescriptorCollection);
+            _typeTable[74] = typeof(global::Telerik.Data.Core.DataDescriptorCollection<global::Telerik.Data.Core.GroupDescriptorBase>);
+            _typeTable[75] = typeof(global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.GroupDescriptorBase>);
+            _typeTable[76] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.GroupDescriptorBase>);
+            _typeTable[77] = typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.GroupDescriptorBase>);
+            _typeTable[78] = typeof(global::Telerik.Data.Core.GroupDescriptorBase);
+            _typeTable[79] = typeof(global::Telerik.Data.Core.FilterDescriptorCollection);
+            _typeTable[80] = typeof(global::Telerik.Data.Core.DataDescriptorCollection<global::Telerik.Data.Core.FilterDescriptorBase>);
+            _typeTable[81] = typeof(global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.FilterDescriptorBase>);
+            _typeTable[82] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.FilterDescriptorBase>);
+            _typeTable[83] = typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.FilterDescriptorBase>);
+            _typeTable[84] = typeof(global::Telerik.Data.Core.FilterDescriptorBase);
+            _typeTable[85] = typeof(global::Telerik.Data.Core.AggregateDescriptorCollection);
+            _typeTable[86] = typeof(global::Telerik.Data.Core.DataDescriptorCollection<global::Telerik.Data.Core.AggregateDescriptorBase>);
+            _typeTable[87] = typeof(global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.AggregateDescriptorBase>);
+            _typeTable[88] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.AggregateDescriptorBase>);
+            _typeTable[89] = typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.AggregateDescriptorBase>);
+            _typeTable[90] = typeof(global::Telerik.Data.Core.AggregateDescriptorBase);
+            _typeTable[91] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.CommandCollection<global::Telerik.UI.Xaml.Controls.Data.RadListView>);
+            _typeTable[92] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection<global::Telerik.UI.Xaml.Controls.Data.RadListView, global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>);
+            _typeTable[93] = typeof(global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>);
+            _typeTable[94] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>);
+            _typeTable[95] = typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>);
+            _typeTable[96] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>);
+            _typeTable[97] = typeof(global::Telerik.Core.RadAnimation);
+            _typeTable[98] = typeof(global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode);
+            _typeTable[99] = typeof(global::Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection);
+            _typeTable[100] = typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshScrollMode);
+            _typeTable[101] = typeof(global::Telerik.UI.Xaml.Controls.Data.ListViewReorderMode);
+            _typeTable[102] = typeof(global::Telerik.Core.BindableCollection<global::System.Object>);
+            _typeTable[103] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>);
+            _typeTable[104] = typeof(global::System.Collections.ObjectModel.Collection<global::System.Object>);
+            _typeTable[105] = typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode);
+            _typeTable[106] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter);
+            _typeTable[107] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
+            _typeTable[108] = typeof(global::Microsoft.UI.Xaml.Media.Animation.Storyboard);
+            _typeTable[109] = typeof(global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu);
+            _typeTable[110] = typeof(global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>);
+            _typeTable[111] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>);
+            _typeTable[112] = typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>);
+            _typeTable[113] = typeof(global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem);
+            _typeTable[114] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[115] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
+            _typeTable[116] = typeof(global::Telerik.UI.Xaml.Controls.Navigation.Menu.CommandService);
+            _typeTable[117] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>);
+            _typeTable[118] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.ServiceBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>);
+            _typeTable[119] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>);
+            _typeTable[120] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.CommandCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>);
+            _typeTable[121] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu, global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>);
+            _typeTable[122] = typeof(global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>);
+            _typeTable[123] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>);
+            _typeTable[124] = typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>);
+            _typeTable[125] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>);
+            _typeTable[126] = typeof(global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior);
+            _typeTable[127] = typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Microsoft.UI.Xaml.FrameworkElement>);
+            _typeTable[128] = typeof(global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers);
+            _typeTable[129] = typeof(global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition);
+            _typeTable[130] = typeof(global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation);
+            _typeTable[131] = typeof(global::Microsoft.UI.Xaml.HorizontalAlignment);
+            _typeTable[132] = typeof(global::Microsoft.UI.Xaml.VerticalAlignment);
+            _typeTable[133] = typeof(global::Telerik.UI.Xaml.Controls.Chart.ChartPalette);
+            _typeTable[134] = typeof(global::Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection);
+            _typeTable[135] = typeof(global::System.Collections.Generic.List<global::Microsoft.UI.Xaml.Media.Brush>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -339,6 +543,45 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
         private object Activate_8_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
         private object Activate_30_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
         private object Activate_32_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_35_ExtendedGroupHeader() { return new global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.ExtendedGroupHeader(); }
+        private object Activate_36_ListViewGroupHeader() { return new global::Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader(); }
+        private object Activate_37_RadContentControl() { return new global::Telerik.UI.Xaml.Controls.RadContentControl(); }
+        private object Activate_39_RadListView() { return new global::Telerik.UI.Xaml.Controls.Data.RadListView(); }
+#pragma warning disable 0618  //   Warning on Deprecated usage
+        private object Activate_42_RadListView() { return new global::Telerik.Maui.Controls.Compatibility.DataControls.RadListView(); }
+#pragma warning restore 0618
+        private object Activate_65_BindableCollection() { return new global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.SortDescriptorBase>(); }
+        private object Activate_66_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.SortDescriptorBase>(); }
+        private object Activate_67_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.SortDescriptorBase>(); }
+        private object Activate_75_BindableCollection() { return new global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.GroupDescriptorBase>(); }
+        private object Activate_76_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.GroupDescriptorBase>(); }
+        private object Activate_77_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.GroupDescriptorBase>(); }
+        private object Activate_81_BindableCollection() { return new global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.FilterDescriptorBase>(); }
+        private object Activate_82_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.FilterDescriptorBase>(); }
+        private object Activate_83_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.FilterDescriptorBase>(); }
+        private object Activate_87_BindableCollection() { return new global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.AggregateDescriptorBase>(); }
+        private object Activate_88_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.AggregateDescriptorBase>(); }
+        private object Activate_89_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.AggregateDescriptorBase>(); }
+        private object Activate_93_BindableCollection() { return new global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>(); }
+        private object Activate_94_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>(); }
+        private object Activate_95_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>(); }
+        private object Activate_102_BindableCollection() { return new global::Telerik.Core.BindableCollection<global::System.Object>(); }
+        private object Activate_103_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>(); }
+        private object Activate_104_Collection() { return new global::System.Collections.ObjectModel.Collection<global::System.Object>(); }
+        private object Activate_106_BusyIndicatorAnimationAdapter() { return new global::Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter(); }
+        private object Activate_109_RadRadialMenu() { return new global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu(); }
+        private object Activate_110_BindableCollection() { return new global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>(); }
+        private object Activate_111_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>(); }
+        private object Activate_112_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>(); }
+        private object Activate_113_RadialMenuItem() { return new global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem(); }
+        private object Activate_122_BindableCollection() { return new global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>(); }
+        private object Activate_123_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>(); }
+        private object Activate_124_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>(); }
+        private object Activate_126_RadialMenuTriggerBehavior() { return new global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior(); }
+        private object Activate_129_ChartAnnotationLabelDefinition() { return new global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition(); }
+        private object Activate_133_ChartPalette() { return new global::Telerik.UI.Xaml.Controls.Chart.ChartPalette(); }
+        private object Activate_134_PaletteEntryCollection() { return new global::Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection(); }
+        private object Activate_135_List() { return new global::System.Collections.Generic.List<global::Microsoft.UI.Xaml.Media.Brush>(); }
         private void StaticInitializer_0_MauiWinUIApplication() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.MauiWinUIApplication).TypeHandle);
         private void StaticInitializer_3_IServiceProvider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.IServiceProvider).TypeHandle);
         private void StaticInitializer_4_IApplication() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.IApplication).TypeHandle);
@@ -359,6 +602,101 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
         private void StaticInitializer_30_NavigationViewTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings).TypeHandle);
         private void StaticInitializer_32_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
         private void StaticInitializer_33_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_35_ExtendedGroupHeader() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.ExtendedGroupHeader).TypeHandle);
+        private void StaticInitializer_36_ListViewGroupHeader() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader).TypeHandle);
+        private void StaticInitializer_37_RadContentControl() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.RadContentControl).TypeHandle);
+        private void StaticInitializer_38_UWPListView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView).TypeHandle);
+        private void StaticInitializer_39_RadListView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.RadListView).TypeHandle);
+        private void StaticInitializer_40_RadControl() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.RadControl).TypeHandle);
+#pragma warning disable 0618  //   Warning on Deprecated usage
+        private void StaticInitializer_42_RadListView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Maui.Controls.Compatibility.DataControls.RadListView).TypeHandle);
+#pragma warning restore 0618
+        private void StaticInitializer_43_FormsListViewControlBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Maui.Controls.Compatibility.DataControls.FormsListViewControlBase).TypeHandle);
+        private void StaticInitializer_44_RadView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Maui.Controls.RadView).TypeHandle);
+        private void StaticInitializer_45_View() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Controls.View).TypeHandle);
+        private void StaticInitializer_46_VisualElement() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Controls.VisualElement).TypeHandle);
+        private void StaticInitializer_47_NavigableElement() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Controls.NavigableElement).TypeHandle);
+        private void StaticInitializer_48_StyleableElement() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Controls.StyleableElement).TypeHandle);
+        private void StaticInitializer_49_Element() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Controls.Element).TypeHandle);
+        private void StaticInitializer_50_BindableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Controls.BindableObject).TypeHandle);
+        private void StaticInitializer_52_EmptyContentDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode).TypeHandle);
+        private void StaticInitializer_54_ListViewGroupHeaderDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ListViewGroupHeaderDisplayMode).TypeHandle);
+        private void StaticInitializer_55_CommandService() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.Commands.CommandService).TypeHandle);
+        private void StaticInitializer_56_CommandServiceBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>).TypeHandle);
+        private void StaticInitializer_57_ServiceBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.ServiceBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>).TypeHandle);
+        private void StaticInitializer_58_AttachableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Telerik.UI.Xaml.Controls.Data.RadListView>).TypeHandle);
+        private void StaticInitializer_59_RadDependencyObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.RadDependencyObject).TypeHandle);
+        private void StaticInitializer_60_BatchLoadingMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.Data.BatchLoadingMode).TypeHandle);
+        private void StaticInitializer_61_LayoutDefinitionBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.LayoutDefinitionBase).TypeHandle);
+        private void StaticInitializer_62_ViewModelBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.ViewModelBase).TypeHandle);
+        private void StaticInitializer_63_SortDescriptorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.SortDescriptorCollection).TypeHandle);
+        private void StaticInitializer_64_DataDescriptorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.DataDescriptorCollection<global::Telerik.Data.Core.SortDescriptorBase>).TypeHandle);
+        private void StaticInitializer_65_BindableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.SortDescriptorBase>).TypeHandle);
+        private void StaticInitializer_66_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.SortDescriptorBase>).TypeHandle);
+        private void StaticInitializer_67_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.SortDescriptorBase>).TypeHandle);
+        private void StaticInitializer_68_SortDescriptorBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.SortDescriptorBase).TypeHandle);
+        private void StaticInitializer_69_OrderedDescriptor() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.OrderedDescriptor).TypeHandle);
+        private void StaticInitializer_70_DataDescriptor() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.DataDescriptor).TypeHandle);
+        private void StaticInitializer_71_IComparer() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.IComparer).TypeHandle);
+        private void StaticInitializer_72_SortOrder() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.SortOrder).TypeHandle);
+        private void StaticInitializer_73_GroupDescriptorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.GroupDescriptorCollection).TypeHandle);
+        private void StaticInitializer_74_DataDescriptorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.DataDescriptorCollection<global::Telerik.Data.Core.GroupDescriptorBase>).TypeHandle);
+        private void StaticInitializer_75_BindableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.GroupDescriptorBase>).TypeHandle);
+        private void StaticInitializer_76_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.GroupDescriptorBase>).TypeHandle);
+        private void StaticInitializer_77_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.GroupDescriptorBase>).TypeHandle);
+        private void StaticInitializer_78_GroupDescriptorBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.GroupDescriptorBase).TypeHandle);
+        private void StaticInitializer_79_FilterDescriptorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.FilterDescriptorCollection).TypeHandle);
+        private void StaticInitializer_80_DataDescriptorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.DataDescriptorCollection<global::Telerik.Data.Core.FilterDescriptorBase>).TypeHandle);
+        private void StaticInitializer_81_BindableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.FilterDescriptorBase>).TypeHandle);
+        private void StaticInitializer_82_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.FilterDescriptorBase>).TypeHandle);
+        private void StaticInitializer_83_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.FilterDescriptorBase>).TypeHandle);
+        private void StaticInitializer_84_FilterDescriptorBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.FilterDescriptorBase).TypeHandle);
+        private void StaticInitializer_85_AggregateDescriptorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.AggregateDescriptorCollection).TypeHandle);
+        private void StaticInitializer_86_DataDescriptorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.DataDescriptorCollection<global::Telerik.Data.Core.AggregateDescriptorBase>).TypeHandle);
+        private void StaticInitializer_87_BindableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.BindableCollection<global::Telerik.Data.Core.AggregateDescriptorBase>).TypeHandle);
+        private void StaticInitializer_88_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.Data.Core.AggregateDescriptorBase>).TypeHandle);
+        private void StaticInitializer_89_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.Data.Core.AggregateDescriptorBase>).TypeHandle);
+        private void StaticInitializer_90_AggregateDescriptorBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Data.Core.AggregateDescriptorBase).TypeHandle);
+        private void StaticInitializer_91_CommandCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.CommandCollection<global::Telerik.UI.Xaml.Controls.Data.RadListView>).TypeHandle);
+        private void StaticInitializer_92_AttachableObjectCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection<global::Telerik.UI.Xaml.Controls.Data.RadListView, global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>).TypeHandle);
+        private void StaticInitializer_93_BindableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>).TypeHandle);
+        private void StaticInitializer_94_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>).TypeHandle);
+        private void StaticInitializer_95_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>).TypeHandle);
+        private void StaticInitializer_96_ControlCommandBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>).TypeHandle);
+        private void StaticInitializer_97_RadAnimation() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.RadAnimation).TypeHandle);
+        private void StaticInitializer_98_ItemAnimationMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode).TypeHandle);
+        private void StaticInitializer_99_ListViewItemSwipeDirection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection).TypeHandle);
+        private void StaticInitializer_100_PullToRefreshScrollMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshScrollMode).TypeHandle);
+        private void StaticInitializer_101_ListViewReorderMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ListViewReorderMode).TypeHandle);
+        private void StaticInitializer_102_BindableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.BindableCollection<global::System.Object>).TypeHandle);
+        private void StaticInitializer_103_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>).TypeHandle);
+        private void StaticInitializer_104_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::System.Object>).TypeHandle);
+        private void StaticInitializer_105_DataControlsSelectionMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode).TypeHandle);
+        private void StaticInitializer_106_BusyIndicatorAnimationAdapter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter).TypeHandle);
+        private void StaticInitializer_109_RadRadialMenu() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu).TypeHandle);
+        private void StaticInitializer_110_BindableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>).TypeHandle);
+        private void StaticInitializer_111_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>).TypeHandle);
+        private void StaticInitializer_112_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>).TypeHandle);
+        private void StaticInitializer_113_RadialMenuItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem).TypeHandle);
+        private void StaticInitializer_114_ICommand() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Windows.Input.ICommand).TypeHandle);
+        private void StaticInitializer_116_CommandService() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Navigation.Menu.CommandService).TypeHandle);
+        private void StaticInitializer_117_CommandServiceBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>).TypeHandle);
+        private void StaticInitializer_118_ServiceBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.ServiceBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>).TypeHandle);
+        private void StaticInitializer_119_AttachableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>).TypeHandle);
+        private void StaticInitializer_120_CommandCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.CommandCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>).TypeHandle);
+        private void StaticInitializer_121_AttachableObjectCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu, global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>).TypeHandle);
+        private void StaticInitializer_122_BindableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.Core.BindableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>).TypeHandle);
+        private void StaticInitializer_123_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>).TypeHandle);
+        private void StaticInitializer_124_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>).TypeHandle);
+        private void StaticInitializer_125_ControlCommandBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>).TypeHandle);
+        private void StaticInitializer_126_RadialMenuTriggerBehavior() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior).TypeHandle);
+        private void StaticInitializer_127_AttachableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Microsoft.UI.Xaml.FrameworkElement>).TypeHandle);
+        private void StaticInitializer_128_RadialMenuAttachTriggers() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers).TypeHandle);
+        private void StaticInitializer_129_ChartAnnotationLabelDefinition() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition).TypeHandle);
+        private void StaticInitializer_130_ChartAnnotationLabelLocation() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation).TypeHandle);
+        private void StaticInitializer_133_ChartPalette() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Chart.ChartPalette).TypeHandle);
+        private void StaticInitializer_134_PaletteEntryCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection).TypeHandle);
+        private void StaticInitializer_135_List() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.List<global::Microsoft.UI.Xaml.Media.Brush>).TypeHandle);
         private void VectorAdd_19_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
@@ -369,6 +707,228 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_63_SortDescriptorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.SortDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.SortDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_64_DataDescriptorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.SortDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.SortDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_65_BindableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.SortDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.SortDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_66_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.SortDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.SortDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_67_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.SortDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.SortDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_73_GroupDescriptorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.GroupDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.GroupDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_74_DataDescriptorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.GroupDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.GroupDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_75_BindableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.GroupDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.GroupDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_76_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.GroupDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.GroupDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_77_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.GroupDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.GroupDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_79_FilterDescriptorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.FilterDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.FilterDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_80_DataDescriptorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.FilterDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.FilterDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_81_BindableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.FilterDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.FilterDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_82_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.FilterDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.FilterDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_83_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.FilterDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.FilterDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_85_AggregateDescriptorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.AggregateDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.AggregateDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_86_DataDescriptorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.AggregateDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.AggregateDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_87_BindableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.AggregateDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.AggregateDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_88_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.AggregateDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.AggregateDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_89_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.Data.Core.AggregateDescriptorBase>)instance;
+            var newItem = (global::Telerik.Data.Core.AggregateDescriptorBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_91_CommandCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_92_AttachableObjectCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_93_BindableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_94_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_95_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Data.RadListView>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_102_BindableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
+            var newItem = (global::System.Object)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_103_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
+            var newItem = (global::System.Object)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_104_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
+            var newItem = (global::System.Object)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_110_BindableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_111_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_112_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_120_CommandCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_121_AttachableObjectCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_122_BindableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_123_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_124_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>)instance;
+            var newItem = (global::Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_135_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Media.Brush>)instance;
+            var newItem = (global::Microsoft.UI.Xaml.Media.Brush)item;
             collection.Add(newItem);
         }
 
@@ -644,6 +1204,834 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
             case 34:   //  Int32
                 xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+
+            case 35:   //  Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.ExtendedGroupHeader
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader"));
+                userType.Activator = Activate_35_ExtendedGroupHeader;
+                userType.StaticInitializer = StaticInitializer_35_ExtendedGroupHeader;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 36:   //  Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.RadContentControl"));
+                userType.Activator = Activate_36_ListViewGroupHeader;
+                userType.StaticInitializer = StaticInitializer_36_ListViewGroupHeader;
+                userType.AddMemberName("IsExpanded");
+                userType.AddMemberName("IsFrozen");
+                xamlType = userType;
+                break;
+
+            case 37:   //  Telerik.UI.Xaml.Controls.RadContentControl
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
+                userType.Activator = Activate_37_RadContentControl;
+                userType.StaticInitializer = StaticInitializer_37_RadContentControl;
+                userType.AddMemberName("CurrentVisualState");
+                userType.AddMemberName("IsLoaded");
+                userType.AddMemberName("IsTemplateApplied");
+                userType.AddMemberName("IsFocused");
+                xamlType = userType;
+                break;
+
+            case 38:   //  Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView"));
+                userType.StaticInitializer = StaticInitializer_38_UWPListView;
+                userType.AddMemberName("EnableNativeFocus");
+                userType.AddMemberName("ListView");
+                userType.AddMemberName("VerticalScrollBarVisibility");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 39:   //  Telerik.UI.Xaml.Controls.Data.RadListView
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.RadControl"));
+                userType.Activator = Activate_39_RadListView;
+                userType.StaticInitializer = StaticInitializer_39_RadListView;
+                userType.AddMemberName("RealizedItemsBufferScale");
+                userType.AddMemberName("EmptyContent");
+                userType.AddMemberName("EmptyContentDisplayMode");
+                userType.AddMemberName("ItemTemplate");
+                userType.AddMemberName("ItemStyle");
+                userType.AddMemberName("ItemStyleSelector");
+                userType.AddMemberName("ItemTemplateSelector");
+                userType.AddMemberName("Orientation");
+                userType.AddMemberName("ListHeader");
+                userType.AddMemberName("ListFooter");
+                userType.AddMemberName("GroupHeaderTemplate");
+                userType.AddMemberName("GroupHeaderTemplateSelector");
+                userType.AddMemberName("GroupHeaderStyle");
+                userType.AddMemberName("GroupHeaderStyleSelector");
+                userType.AddMemberName("GroupHeaderDisplayMode");
+                userType.AddMemberName("CommandService");
+                userType.AddMemberName("IncrementalLoadingMode");
+                userType.AddMemberName("IncrementalLoadingBufferItemsCount");
+                userType.AddMemberName("DisabledStateOpacity");
+                userType.AddMemberName("IsBusyIndicatorEnabled");
+                userType.AddMemberName("ItemsSource");
+                userType.AddMemberName("LayoutDefinition");
+                userType.AddMemberName("SortDescriptors");
+                userType.AddMemberName("GroupDescriptors");
+                userType.AddMemberName("FilterDescriptors");
+                userType.AddMemberName("AggregateDescriptors");
+                userType.AddMemberName("Commands");
+                userType.AddMemberName("ScrollOffset");
+                userType.AddMemberName("CurrentItem");
+                userType.AddMemberName("EnsureCurrentItemIntoView");
+                userType.AddMemberName("IsSynchronizedWithCurrentItem");
+                userType.AddMemberName("ItemRemovedAnimation");
+                userType.AddMemberName("ItemAddedAnimation");
+                userType.AddMemberName("ItemAnimationMode");
+                userType.AddMemberName("ItemSwipeDirection");
+                userType.AddMemberName("IsPullToRefreshEnabled");
+                userType.AddMemberName("PullToRefreshScrollMode");
+                userType.AddMemberName("IsPullToRefreshActive");
+                userType.AddMemberName("IsItemReorderEnabled");
+                userType.AddMemberName("ReorderMode");
+                userType.AddMemberName("SelectedItems");
+                userType.AddMemberName("SelectedItem");
+                userType.AddMemberName("SelectionMode");
+                userType.AddMemberName("ItemSwipeThreshold");
+                userType.AddMemberName("ItemSwipeOffset");
+                userType.AddMemberName("IsActionOnSwipeEnabled");
+                userType.AddMemberName("SwipeActionContent");
+                xamlType = userType;
+                break;
+
+            case 40:   //  Telerik.UI.Xaml.Controls.RadControl
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.StaticInitializer = StaticInitializer_40_RadControl;
+                userType.AddMemberName("CurrentVisualState");
+                xamlType = userType;
+                break;
+
+            case 41:   //  Microsoft.UI.Xaml.Controls.Control
+                xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 42:   //  Telerik.Maui.Controls.Compatibility.DataControls.RadListView
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Maui.Controls.Compatibility.DataControls.FormsListViewControlBase"));
+                userType.StaticInitializer = StaticInitializer_42_RadListView;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 43:   //  Telerik.Maui.Controls.Compatibility.DataControls.FormsListViewControlBase
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Maui.Controls.RadView"));
+                userType.StaticInitializer = StaticInitializer_43_FormsListViewControlBase;
+                xamlType = userType;
+                break;
+
+            case 44:   //  Telerik.Maui.Controls.RadView
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Controls.View"));
+                userType.StaticInitializer = StaticInitializer_44_RadView;
+                xamlType = userType;
+                break;
+
+            case 45:   //  Microsoft.Maui.Controls.View
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Controls.VisualElement"));
+                userType.StaticInitializer = StaticInitializer_45_View;
+                xamlType = userType;
+                break;
+
+            case 46:   //  Microsoft.Maui.Controls.VisualElement
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Controls.NavigableElement"));
+                userType.StaticInitializer = StaticInitializer_46_VisualElement;
+                xamlType = userType;
+                break;
+
+            case 47:   //  Microsoft.Maui.Controls.NavigableElement
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Controls.StyleableElement"));
+                userType.StaticInitializer = StaticInitializer_47_NavigableElement;
+                xamlType = userType;
+                break;
+
+            case 48:   //  Microsoft.Maui.Controls.StyleableElement
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Controls.Element"));
+                userType.StaticInitializer = StaticInitializer_48_StyleableElement;
+                xamlType = userType;
+                break;
+
+            case 49:   //  Microsoft.Maui.Controls.Element
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Controls.BindableObject"));
+                userType.StaticInitializer = StaticInitializer_49_Element;
+                xamlType = userType;
+                break;
+
+            case 50:   //  Microsoft.Maui.Controls.BindableObject
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_50_BindableObject;
+                xamlType = userType;
+                break;
+
+            case 51:   //  Microsoft.UI.Xaml.Controls.ScrollBarVisibility
+                xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 52:   //  Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_52_EmptyContentDisplayMode;
+                userType.AddEnumValue("None", global::Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode.None);
+                userType.AddEnumValue("DataSourceNull", global::Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode.DataSourceNull);
+                userType.AddEnumValue("DataSourceEmpty", global::Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode.DataSourceEmpty);
+                userType.AddEnumValue("Always", global::Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode.Always);
+                xamlType = userType;
+                break;
+
+            case 53:   //  Microsoft.UI.Xaml.Controls.Orientation
+                xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 54:   //  Telerik.UI.Xaml.Controls.Data.ListViewGroupHeaderDisplayMode
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_54_ListViewGroupHeaderDisplayMode;
+                userType.AddEnumValue("Frozen", global::Telerik.UI.Xaml.Controls.Data.ListViewGroupHeaderDisplayMode.Frozen);
+                userType.AddEnumValue("Scrollable", global::Telerik.UI.Xaml.Controls.Data.ListViewGroupHeaderDisplayMode.Scrollable);
+                xamlType = userType;
+                break;
+
+            case 55:   //  Telerik.UI.Xaml.Controls.Data.ListView.Commands.CommandService
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>"));
+                userType.StaticInitializer = StaticInitializer_55_CommandService;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 56:   //  Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.ServiceBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>"));
+                userType.StaticInitializer = StaticInitializer_56_CommandServiceBase;
+                xamlType = userType;
+                break;
+
+            case 57:   //  Telerik.UI.Xaml.Controls.Primitives.ServiceBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Data.RadListView>"));
+                userType.StaticInitializer = StaticInitializer_57_ServiceBase;
+                xamlType = userType;
+                break;
+
+            case 58:   //  Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Data.RadListView>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.RadDependencyObject"));
+                userType.StaticInitializer = StaticInitializer_58_AttachableObject;
+                userType.AddMemberName("Owner");
+                xamlType = userType;
+                break;
+
+            case 59:   //  Telerik.UI.Xaml.Controls.Primitives.RadDependencyObject
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.StaticInitializer = StaticInitializer_59_RadDependencyObject;
+                xamlType = userType;
+                break;
+
+            case 60:   //  Telerik.Core.Data.BatchLoadingMode
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_60_BatchLoadingMode;
+                userType.AddEnumValue("Auto", global::Telerik.Core.Data.BatchLoadingMode.Auto);
+                userType.AddEnumValue("Explicit", global::Telerik.Core.Data.BatchLoadingMode.Explicit);
+                xamlType = userType;
+                break;
+
+            case 61:   //  Telerik.UI.Xaml.Controls.Data.ListView.LayoutDefinitionBase
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Core.ViewModelBase"));
+                userType.StaticInitializer = StaticInitializer_61_LayoutDefinitionBase;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 62:   //  Telerik.Core.ViewModelBase
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_62_ViewModelBase;
+                xamlType = userType;
+                break;
+
+            case 63:   //  Telerik.Data.Core.SortDescriptorCollection
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.SortDescriptorBase>"));
+                userType.StaticInitializer = StaticInitializer_63_SortDescriptorCollection;
+                userType.CollectionAdd = VectorAdd_63_SortDescriptorCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 64:   //  Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.SortDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Core.BindableCollection`1<Telerik.Data.Core.SortDescriptorBase>"));
+                userType.StaticInitializer = StaticInitializer_64_DataDescriptorCollection;
+                userType.CollectionAdd = VectorAdd_64_DataDescriptorCollection;
+                xamlType = userType;
+                break;
+
+            case 65:   //  Telerik.Core.BindableCollection`1<Telerik.Data.Core.SortDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.SortDescriptorBase>"));
+                userType.Activator = Activate_65_BindableCollection;
+                userType.StaticInitializer = StaticInitializer_65_BindableCollection;
+                userType.CollectionAdd = VectorAdd_65_BindableCollection;
+                xamlType = userType;
+                break;
+
+            case 66:   //  System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.SortDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.SortDescriptorBase>"));
+                userType.Activator = Activate_66_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_66_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_66_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 67:   //  System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.SortDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_67_Collection;
+                userType.StaticInitializer = StaticInitializer_67_Collection;
+                userType.CollectionAdd = VectorAdd_67_Collection;
+                xamlType = userType;
+                break;
+
+            case 68:   //  Telerik.Data.Core.SortDescriptorBase
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.OrderedDescriptor"));
+                userType.StaticInitializer = StaticInitializer_68_SortDescriptorBase;
+                userType.AddMemberName("Comparer");
+                xamlType = userType;
+                break;
+
+            case 69:   //  Telerik.Data.Core.OrderedDescriptor
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.DataDescriptor"));
+                userType.StaticInitializer = StaticInitializer_69_OrderedDescriptor;
+                userType.AddMemberName("SortOrder");
+                xamlType = userType;
+                break;
+
+            case 70:   //  Telerik.Data.Core.DataDescriptor
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Core.ViewModelBase"));
+                userType.StaticInitializer = StaticInitializer_70_DataDescriptor;
+                xamlType = userType;
+                break;
+
+            case 71:   //  System.Collections.IComparer
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_71_IComparer;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 72:   //  Telerik.Data.Core.SortOrder
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_72_SortOrder;
+                userType.AddEnumValue("Ascending", global::Telerik.Data.Core.SortOrder.Ascending);
+                userType.AddEnumValue("Descending", global::Telerik.Data.Core.SortOrder.Descending);
+                xamlType = userType;
+                break;
+
+            case 73:   //  Telerik.Data.Core.GroupDescriptorCollection
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.GroupDescriptorBase>"));
+                userType.StaticInitializer = StaticInitializer_73_GroupDescriptorCollection;
+                userType.CollectionAdd = VectorAdd_73_GroupDescriptorCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 74:   //  Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.GroupDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Core.BindableCollection`1<Telerik.Data.Core.GroupDescriptorBase>"));
+                userType.StaticInitializer = StaticInitializer_74_DataDescriptorCollection;
+                userType.CollectionAdd = VectorAdd_74_DataDescriptorCollection;
+                xamlType = userType;
+                break;
+
+            case 75:   //  Telerik.Core.BindableCollection`1<Telerik.Data.Core.GroupDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.GroupDescriptorBase>"));
+                userType.Activator = Activate_75_BindableCollection;
+                userType.StaticInitializer = StaticInitializer_75_BindableCollection;
+                userType.CollectionAdd = VectorAdd_75_BindableCollection;
+                xamlType = userType;
+                break;
+
+            case 76:   //  System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.GroupDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.GroupDescriptorBase>"));
+                userType.Activator = Activate_76_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_76_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_76_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 77:   //  System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.GroupDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_77_Collection;
+                userType.StaticInitializer = StaticInitializer_77_Collection;
+                userType.CollectionAdd = VectorAdd_77_Collection;
+                xamlType = userType;
+                break;
+
+            case 78:   //  Telerik.Data.Core.GroupDescriptorBase
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.OrderedDescriptor"));
+                userType.StaticInitializer = StaticInitializer_78_GroupDescriptorBase;
+                userType.AddMemberName("DisplayContent");
+                xamlType = userType;
+                break;
+
+            case 79:   //  Telerik.Data.Core.FilterDescriptorCollection
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.FilterDescriptorBase>"));
+                userType.StaticInitializer = StaticInitializer_79_FilterDescriptorCollection;
+                userType.CollectionAdd = VectorAdd_79_FilterDescriptorCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 80:   //  Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.FilterDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Core.BindableCollection`1<Telerik.Data.Core.FilterDescriptorBase>"));
+                userType.StaticInitializer = StaticInitializer_80_DataDescriptorCollection;
+                userType.CollectionAdd = VectorAdd_80_DataDescriptorCollection;
+                xamlType = userType;
+                break;
+
+            case 81:   //  Telerik.Core.BindableCollection`1<Telerik.Data.Core.FilterDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.FilterDescriptorBase>"));
+                userType.Activator = Activate_81_BindableCollection;
+                userType.StaticInitializer = StaticInitializer_81_BindableCollection;
+                userType.CollectionAdd = VectorAdd_81_BindableCollection;
+                xamlType = userType;
+                break;
+
+            case 82:   //  System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.FilterDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.FilterDescriptorBase>"));
+                userType.Activator = Activate_82_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_82_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_82_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 83:   //  System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.FilterDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_83_Collection;
+                userType.StaticInitializer = StaticInitializer_83_Collection;
+                userType.CollectionAdd = VectorAdd_83_Collection;
+                xamlType = userType;
+                break;
+
+            case 84:   //  Telerik.Data.Core.FilterDescriptorBase
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.DataDescriptor"));
+                userType.StaticInitializer = StaticInitializer_84_FilterDescriptorBase;
+                xamlType = userType;
+                break;
+
+            case 85:   //  Telerik.Data.Core.AggregateDescriptorCollection
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.AggregateDescriptorBase>"));
+                userType.StaticInitializer = StaticInitializer_85_AggregateDescriptorCollection;
+                userType.CollectionAdd = VectorAdd_85_AggregateDescriptorCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 86:   //  Telerik.Data.Core.DataDescriptorCollection`1<Telerik.Data.Core.AggregateDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Core.BindableCollection`1<Telerik.Data.Core.AggregateDescriptorBase>"));
+                userType.StaticInitializer = StaticInitializer_86_DataDescriptorCollection;
+                userType.CollectionAdd = VectorAdd_86_DataDescriptorCollection;
+                xamlType = userType;
+                break;
+
+            case 87:   //  Telerik.Core.BindableCollection`1<Telerik.Data.Core.AggregateDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.AggregateDescriptorBase>"));
+                userType.Activator = Activate_87_BindableCollection;
+                userType.StaticInitializer = StaticInitializer_87_BindableCollection;
+                userType.CollectionAdd = VectorAdd_87_BindableCollection;
+                xamlType = userType;
+                break;
+
+            case 88:   //  System.Collections.ObjectModel.ObservableCollection`1<Telerik.Data.Core.AggregateDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.AggregateDescriptorBase>"));
+                userType.Activator = Activate_88_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_88_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_88_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 89:   //  System.Collections.ObjectModel.Collection`1<Telerik.Data.Core.AggregateDescriptorBase>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_89_Collection;
+                userType.StaticInitializer = StaticInitializer_89_Collection;
+                userType.CollectionAdd = VectorAdd_89_Collection;
+                xamlType = userType;
+                break;
+
+            case 90:   //  Telerik.Data.Core.AggregateDescriptorBase
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Data.Core.DataDescriptor"));
+                userType.StaticInitializer = StaticInitializer_90_AggregateDescriptorBase;
+                userType.AddMemberName("Format");
+                xamlType = userType;
+                break;
+
+            case 91:   //  Telerik.UI.Xaml.Controls.Primitives.CommandCollection`1<Telerik.UI.Xaml.Controls.Data.RadListView>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection`2<Telerik.UI.Xaml.Controls.Data.RadListView, Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>"));
+                userType.StaticInitializer = StaticInitializer_91_CommandCollection;
+                userType.CollectionAdd = VectorAdd_91_CommandCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 92:   //  Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection`2<Telerik.UI.Xaml.Controls.Data.RadListView, Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>"));
+                userType.StaticInitializer = StaticInitializer_92_AttachableObjectCollection;
+                userType.CollectionAdd = VectorAdd_92_AttachableObjectCollection;
+                xamlType = userType;
+                break;
+
+            case 93:   //  Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>"));
+                userType.Activator = Activate_93_BindableCollection;
+                userType.StaticInitializer = StaticInitializer_93_BindableCollection;
+                userType.CollectionAdd = VectorAdd_93_BindableCollection;
+                xamlType = userType;
+                break;
+
+            case 94:   //  System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>"));
+                userType.Activator = Activate_94_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_94_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_94_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 95:   //  System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_95_Collection;
+                userType.StaticInitializer = StaticInitializer_95_Collection;
+                userType.CollectionAdd = VectorAdd_95_Collection;
+                xamlType = userType;
+                break;
+
+            case 96:   //  Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Data.RadListView>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Data.RadListView>"));
+                userType.StaticInitializer = StaticInitializer_96_ControlCommandBase;
+                xamlType = userType;
+                break;
+
+            case 97:   //  Telerik.Core.RadAnimation
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_97_RadAnimation;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 98:   //  Telerik.UI.Xaml.Controls.Data.ItemAnimationMode
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_98_ItemAnimationMode;
+                userType.AddEnumValue("None", global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode.None);
+                userType.AddEnumValue("PlayOnNewSource", global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode.PlayOnNewSource);
+                userType.AddEnumValue("PlayOnAdd", global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode.PlayOnAdd);
+                userType.AddEnumValue("PlayOnRemove", global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode.PlayOnRemove);
+                userType.AddEnumValue("PlayOnSourceReset", global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode.PlayOnSourceReset);
+                userType.AddEnumValue("PlayAll", global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode.PlayAll);
+                xamlType = userType;
+                break;
+
+            case 99:   //  Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_99_ListViewItemSwipeDirection;
+                userType.AddEnumValue("Forward", global::Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection.Forward);
+                userType.AddEnumValue("Backwards", global::Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection.Backwards);
+                userType.AddEnumValue("All", global::Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection.All);
+                xamlType = userType;
+                break;
+
+            case 100:   //  Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshScrollMode
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_100_PullToRefreshScrollMode;
+                userType.AddEnumValue("ContentAndIndicator", global::Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshScrollMode.ContentAndIndicator);
+                userType.AddEnumValue("IndicatorOnly", global::Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshScrollMode.IndicatorOnly);
+                xamlType = userType;
+                break;
+
+            case 101:   //  Telerik.UI.Xaml.Controls.Data.ListViewReorderMode
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_101_ListViewReorderMode;
+                userType.AddEnumValue("Default", global::Telerik.UI.Xaml.Controls.Data.ListViewReorderMode.Default);
+                userType.AddEnumValue("Handle", global::Telerik.UI.Xaml.Controls.Data.ListViewReorderMode.Handle);
+                xamlType = userType;
+                break;
+
+            case 102:   //  Telerik.Core.BindableCollection`1<Object>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Object>"));
+                userType.StaticInitializer = StaticInitializer_102_BindableCollection;
+                userType.CollectionAdd = VectorAdd_102_BindableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 103:   //  System.Collections.ObjectModel.ObservableCollection`1<Object>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Object>"));
+                userType.Activator = Activate_103_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_103_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_103_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 104:   //  System.Collections.ObjectModel.Collection`1<Object>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_104_Collection;
+                userType.StaticInitializer = StaticInitializer_104_Collection;
+                userType.CollectionAdd = VectorAdd_104_Collection;
+                xamlType = userType;
+                break;
+
+            case 105:   //  Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_105_DataControlsSelectionMode;
+                userType.AddEnumValue("None", global::Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode.None);
+                userType.AddEnumValue("Single", global::Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode.Single);
+                userType.AddEnumValue("Multiple", global::Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode.Multiple);
+                userType.AddEnumValue("Extended", global::Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode.Extended);
+                xamlType = userType;
+                break;
+
+            case 106:   //  Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.FrameworkElement"));
+                userType.Activator = Activate_106_BusyIndicatorAnimationAdapter;
+                userType.StaticInitializer = StaticInitializer_106_BusyIndicatorAnimationAdapter;
+                userType.AddMemberName("Animation");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 107:   //  Microsoft.UI.Xaml.FrameworkElement
+                xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 108:   //  Microsoft.UI.Xaml.Media.Animation.Storyboard
+                xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 109:   //  Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.RadControl"));
+                userType.Activator = Activate_109_RadRadialMenu;
+                userType.StaticInitializer = StaticInitializer_109_RadRadialMenu;
+                userType.SetContentPropertyName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.Items");
+                userType.AddMemberName("Items");
+                userType.AddMemberName("ShowToolTip");
+                userType.AddMemberName("IsOpen");
+                userType.AddMemberName("StartAngle");
+                userType.AddMemberName("InnerNavigationRadiusFactor");
+                userType.AddMemberName("InnerRadiusFactor");
+                userType.AddMemberName("OuterRadiusFactor");
+                userType.AddMemberName("ContentMenuBackgroundStyle");
+                userType.AddMemberName("NavigationMenuBackgroundStyle");
+                userType.AddMemberName("CommandService");
+                userType.AddMemberName("Commands");
+                userType.AddMemberName("TargetElement");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 110:   //  Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>"));
+                userType.StaticInitializer = StaticInitializer_110_BindableCollection;
+                userType.CollectionAdd = VectorAdd_110_BindableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 111:   //  System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>"));
+                userType.Activator = Activate_111_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_111_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_111_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 112:   //  System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_112_Collection;
+                userType.StaticInitializer = StaticInitializer_112_Collection;
+                userType.CollectionAdd = VectorAdd_112_Collection;
+                xamlType = userType;
+                break;
+
+            case 113:   //  Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.RadDependencyObject"));
+                userType.Activator = Activate_113_RadialMenuItem;
+                userType.StaticInitializer = StaticInitializer_113_RadialMenuItem;
+                userType.SetContentPropertyName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.ChildItems");
+                userType.AddMemberName("ChildItems");
+                userType.AddMemberName("ToolTipContent");
+                userType.AddMemberName("CommandParameter");
+                userType.AddMemberName("IsEnabled");
+                userType.AddMemberName("Command");
+                userType.AddMemberName("ParentItem");
+                userType.AddMemberName("IsSelected");
+                userType.AddMemberName("GroupName");
+                userType.AddMemberName("Selectable");
+                userType.AddMemberName("Deselectable");
+                userType.AddMemberName("Header");
+                userType.AddMemberName("IconContent");
+                userType.AddMemberName("ContentSectorBackground");
+                xamlType = userType;
+                break;
+
+            case 114:   //  System.Windows.Input.ICommand
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_114_ICommand;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 115:   //  Microsoft.UI.Xaml.Media.Brush
+                xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 116:   //  Telerik.UI.Xaml.Controls.Navigation.Menu.CommandService
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>"));
+                userType.StaticInitializer = StaticInitializer_116_CommandService;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 117:   //  Telerik.UI.Xaml.Controls.Primitives.CommandServiceBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.ServiceBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>"));
+                userType.StaticInitializer = StaticInitializer_117_CommandServiceBase;
+                xamlType = userType;
+                break;
+
+            case 118:   //  Telerik.UI.Xaml.Controls.Primitives.ServiceBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>"));
+                userType.StaticInitializer = StaticInitializer_118_ServiceBase;
+                xamlType = userType;
+                break;
+
+            case 119:   //  Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.RadDependencyObject"));
+                userType.StaticInitializer = StaticInitializer_119_AttachableObject;
+                userType.AddMemberName("Owner");
+                xamlType = userType;
+                break;
+
+            case 120:   //  Telerik.UI.Xaml.Controls.Primitives.CommandCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection`2<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu, Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>"));
+                userType.StaticInitializer = StaticInitializer_120_CommandCollection;
+                userType.CollectionAdd = VectorAdd_120_CommandCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 121:   //  Telerik.UI.Xaml.Controls.Primitives.AttachableObjectCollection`2<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu, Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>"));
+                userType.StaticInitializer = StaticInitializer_121_AttachableObjectCollection;
+                userType.CollectionAdd = VectorAdd_121_AttachableObjectCollection;
+                xamlType = userType;
+                break;
+
+            case 122:   //  Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>"));
+                userType.Activator = Activate_122_BindableCollection;
+                userType.StaticInitializer = StaticInitializer_122_BindableCollection;
+                userType.CollectionAdd = VectorAdd_122_BindableCollection;
+                xamlType = userType;
+                break;
+
+            case 123:   //  System.Collections.ObjectModel.ObservableCollection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>"));
+                userType.Activator = Activate_123_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_123_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_123_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 124:   //  System.Collections.ObjectModel.Collection`1<Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_124_Collection;
+                userType.StaticInitializer = StaticInitializer_124_Collection;
+                userType.CollectionAdd = VectorAdd_124_Collection;
+                xamlType = userType;
+                break;
+
+            case 125:   //  Telerik.UI.Xaml.Controls.Primitives.ControlCommandBase`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>"));
+                userType.StaticInitializer = StaticInitializer_125_ControlCommandBase;
+                xamlType = userType;
+                break;
+
+            case 126:   //  Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Microsoft.UI.Xaml.FrameworkElement>"));
+                userType.Activator = Activate_126_RadialMenuTriggerBehavior;
+                userType.StaticInitializer = StaticInitializer_126_RadialMenuTriggerBehavior;
+                userType.AddMemberName("AttachTriggers");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 127:   //  Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Microsoft.UI.Xaml.FrameworkElement>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.RadDependencyObject"));
+                userType.StaticInitializer = StaticInitializer_127_AttachableObject;
+                userType.AddMemberName("Owner");
+                xamlType = userType;
+                break;
+
+            case 128:   //  Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_128_RadialMenuAttachTriggers;
+                userType.AddEnumValue("None", global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers.None);
+                userType.AddEnumValue("PointerPressed", global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers.PointerPressed);
+                userType.AddEnumValue("PointerOver", global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers.PointerOver);
+                userType.AddEnumValue("Focused", global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers.Focused);
+                userType.AddEnumValue("PressedOrFocused", global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers.PressedOrFocused);
+                xamlType = userType;
+                break;
+
+            case 129:   //  Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_129_ChartAnnotationLabelDefinition;
+                userType.StaticInitializer = StaticInitializer_129_ChartAnnotationLabelDefinition;
+                userType.AddMemberName("Format");
+                userType.AddMemberName("LabelTemplate");
+                userType.AddMemberName("DefaultVisualStyle");
+                userType.AddMemberName("Location");
+                userType.AddMemberName("HorizontalAlignment");
+                userType.AddMemberName("VerticalAlignment");
+                userType.AddMemberName("HorizontalOffset");
+                userType.AddMemberName("VerticalOffset");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 130:   //  Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_130_ChartAnnotationLabelLocation;
+                userType.AddEnumValue("Left", global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation.Left);
+                userType.AddEnumValue("Top", global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation.Top);
+                userType.AddEnumValue("Right", global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation.Right);
+                userType.AddEnumValue("Bottom", global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation.Bottom);
+                userType.AddEnumValue("Inside", global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation.Inside);
+                xamlType = userType;
+                break;
+
+            case 131:   //  Microsoft.UI.Xaml.HorizontalAlignment
+                xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 132:   //  Microsoft.UI.Xaml.VerticalAlignment
+                xamlType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 133:   //  Telerik.UI.Xaml.Controls.Chart.ChartPalette
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_133_ChartPalette;
+                userType.StaticInitializer = StaticInitializer_133_ChartPalette;
+                userType.AddMemberName("Name");
+                userType.AddMemberName("FillEntries");
+                userType.AddMemberName("SpecialFillEntries");
+                userType.AddMemberName("StrokeEntries");
+                userType.AddMemberName("SpecialStrokeEntries");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 134:   //  Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_134_PaletteEntryCollection;
+                userType.SetContentPropertyName("Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection.Brushes");
+                userType.AddMemberName("Brushes");
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 135:   //  System.Collections.Generic.List`1<Microsoft.UI.Xaml.Media.Brush>
+                userType = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_135_List;
+                userType.CollectionAdd = VectorAdd_135_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
             }
             return xamlType;
         }
@@ -664,6 +2052,12 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
                     provider = new global::Microsoft.Maui.Core_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     provider = new global::Syncfusion.Maui.Core.Syncfusion_Maui_Core_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Telerik.Maui.Controls.Compatibility.Maui_Compatibility_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Controls.Controls_Desktop_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Telerik.Maui.Core.Maui_Core_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     _otherProviders = otherProviders;
                 }
@@ -1129,6 +2523,933 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
         }
+        private object get_48_ListViewGroupHeader_IsExpanded(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader)instance;
+            return that.IsExpanded;
+        }
+        private void set_48_ListViewGroupHeader_IsExpanded(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader)instance;
+            that.IsExpanded = (global::System.Boolean)Value;
+        }
+        private object get_49_ListViewGroupHeader_IsFrozen(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader)instance;
+            return that.IsFrozen;
+        }
+        private void set_49_ListViewGroupHeader_IsFrozen(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader)instance;
+            that.IsFrozen = (global::System.Boolean)Value;
+        }
+        private object get_50_RadContentControl_CurrentVisualState(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.RadContentControl)instance;
+            return that.CurrentVisualState;
+        }
+        private object get_51_RadContentControl_IsLoaded(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.RadContentControl)instance;
+            return that.IsLoaded;
+        }
+        private object get_52_RadContentControl_IsTemplateApplied(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.RadContentControl)instance;
+            return that.IsTemplateApplied;
+        }
+        private object get_53_RadContentControl_IsFocused(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.RadContentControl)instance;
+            return that.IsFocused;
+        }
+        private object get_54_UWPListView_EnableNativeFocus(object instance)
+        {
+            var that = (global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView)instance;
+            return that.EnableNativeFocus;
+        }
+        private void set_54_UWPListView_EnableNativeFocus(object instance, object Value)
+        {
+            var that = (global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView)instance;
+            that.EnableNativeFocus = (global::System.Boolean)Value;
+        }
+#pragma warning disable 0618  //   Warning on Deprecated usage
+        private object get_55_UWPListView_ListView(object instance)
+        {
+            var that = (global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView)instance;
+            return that.ListView;
+        }
+#pragma warning restore 0618
+        private object get_56_UWPListView_VerticalScrollBarVisibility(object instance)
+        {
+            var that = (global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView)instance;
+            return that.VerticalScrollBarVisibility;
+        }
+        private void set_56_UWPListView_VerticalScrollBarVisibility(object instance, object Value)
+        {
+            var that = (global::Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView)instance;
+            that.VerticalScrollBarVisibility = (global::Microsoft.UI.Xaml.Controls.ScrollBarVisibility)Value;
+        }
+        private object get_57_RadListView_RealizedItemsBufferScale(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.RealizedItemsBufferScale;
+        }
+        private void set_57_RadListView_RealizedItemsBufferScale(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.RealizedItemsBufferScale = (global::System.Double)Value;
+        }
+        private object get_58_RadListView_EmptyContent(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.EmptyContent;
+        }
+        private void set_58_RadListView_EmptyContent(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.EmptyContent = (global::System.Object)Value;
+        }
+        private object get_59_RadListView_EmptyContentDisplayMode(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.EmptyContentDisplayMode;
+        }
+        private void set_59_RadListView_EmptyContentDisplayMode(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.EmptyContentDisplayMode = (global::Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode)Value;
+        }
+        private object get_60_RadListView_ItemTemplate(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemTemplate;
+        }
+        private void set_60_RadListView_ItemTemplate(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_61_RadListView_ItemStyle(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemStyle;
+        }
+        private void set_61_RadListView_ItemStyle(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_62_RadListView_ItemStyleSelector(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemStyleSelector;
+        }
+        private void set_62_RadListView_ItemStyleSelector(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemStyleSelector = (global::Microsoft.UI.Xaml.Controls.StyleSelector)Value;
+        }
+        private object get_63_RadListView_ItemTemplateSelector(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemTemplateSelector;
+        }
+        private void set_63_RadListView_ItemTemplateSelector(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
+        }
+        private object get_64_RadListView_Orientation(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.Orientation;
+        }
+        private void set_64_RadListView_Orientation(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.Orientation = (global::Microsoft.UI.Xaml.Controls.Orientation)Value;
+        }
+        private object get_65_RadListView_ListHeader(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ListHeader;
+        }
+        private void set_65_RadListView_ListHeader(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ListHeader = (global::System.Object)Value;
+        }
+        private object get_66_RadListView_ListFooter(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ListFooter;
+        }
+        private void set_66_RadListView_ListFooter(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ListFooter = (global::System.Object)Value;
+        }
+        private object get_67_RadListView_GroupHeaderTemplate(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.GroupHeaderTemplate;
+        }
+        private void set_67_RadListView_GroupHeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.GroupHeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_68_RadListView_GroupHeaderTemplateSelector(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.GroupHeaderTemplateSelector;
+        }
+        private void set_68_RadListView_GroupHeaderTemplateSelector(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.GroupHeaderTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
+        }
+        private object get_69_RadListView_GroupHeaderStyle(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.GroupHeaderStyle;
+        }
+        private void set_69_RadListView_GroupHeaderStyle(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.GroupHeaderStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_70_RadListView_GroupHeaderStyleSelector(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.GroupHeaderStyleSelector;
+        }
+        private void set_70_RadListView_GroupHeaderStyleSelector(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.GroupHeaderStyleSelector = (global::Microsoft.UI.Xaml.Controls.StyleSelector)Value;
+        }
+        private object get_71_RadListView_GroupHeaderDisplayMode(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.GroupHeaderDisplayMode;
+        }
+        private void set_71_RadListView_GroupHeaderDisplayMode(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.GroupHeaderDisplayMode = (global::Telerik.UI.Xaml.Controls.Data.ListViewGroupHeaderDisplayMode)Value;
+        }
+        private object get_72_RadListView_CommandService(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.CommandService;
+        }
+        private object get_73_RadListView_IncrementalLoadingMode(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.IncrementalLoadingMode;
+        }
+        private void set_73_RadListView_IncrementalLoadingMode(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.IncrementalLoadingMode = (global::Telerik.Core.Data.BatchLoadingMode)Value;
+        }
+        private object get_74_RadListView_IncrementalLoadingBufferItemsCount(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.IncrementalLoadingBufferItemsCount;
+        }
+        private void set_74_RadListView_IncrementalLoadingBufferItemsCount(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.IncrementalLoadingBufferItemsCount = (global::System.Int32)Value;
+        }
+        private object get_75_RadListView_DisabledStateOpacity(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.DisabledStateOpacity;
+        }
+        private void set_75_RadListView_DisabledStateOpacity(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.DisabledStateOpacity = (global::System.Double)Value;
+        }
+        private object get_76_RadListView_IsBusyIndicatorEnabled(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.IsBusyIndicatorEnabled;
+        }
+        private void set_76_RadListView_IsBusyIndicatorEnabled(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.IsBusyIndicatorEnabled = (global::System.Boolean)Value;
+        }
+        private object get_77_RadListView_ItemsSource(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemsSource;
+        }
+        private void set_77_RadListView_ItemsSource(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemsSource = (global::System.Object)Value;
+        }
+        private object get_78_RadListView_LayoutDefinition(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.LayoutDefinition;
+        }
+        private void set_78_RadListView_LayoutDefinition(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.LayoutDefinition = (global::Telerik.UI.Xaml.Controls.Data.ListView.LayoutDefinitionBase)Value;
+        }
+        private object get_79_RadListView_SortDescriptors(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.SortDescriptors;
+        }
+        private object get_80_SortDescriptorBase_Comparer(object instance)
+        {
+            var that = (global::Telerik.Data.Core.SortDescriptorBase)instance;
+            return that.Comparer;
+        }
+        private void set_80_SortDescriptorBase_Comparer(object instance, object Value)
+        {
+            var that = (global::Telerik.Data.Core.SortDescriptorBase)instance;
+            that.Comparer = (global::System.Collections.IComparer)Value;
+        }
+        private object get_81_OrderedDescriptor_SortOrder(object instance)
+        {
+            var that = (global::Telerik.Data.Core.OrderedDescriptor)instance;
+            return that.SortOrder;
+        }
+        private void set_81_OrderedDescriptor_SortOrder(object instance, object Value)
+        {
+            var that = (global::Telerik.Data.Core.OrderedDescriptor)instance;
+            that.SortOrder = (global::Telerik.Data.Core.SortOrder)Value;
+        }
+        private object get_82_RadListView_GroupDescriptors(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.GroupDescriptors;
+        }
+        private object get_83_GroupDescriptorBase_DisplayContent(object instance)
+        {
+            var that = (global::Telerik.Data.Core.GroupDescriptorBase)instance;
+            return that.DisplayContent;
+        }
+        private void set_83_GroupDescriptorBase_DisplayContent(object instance, object Value)
+        {
+            var that = (global::Telerik.Data.Core.GroupDescriptorBase)instance;
+            that.DisplayContent = (global::System.Object)Value;
+        }
+        private object get_84_RadListView_FilterDescriptors(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.FilterDescriptors;
+        }
+        private object get_85_RadListView_AggregateDescriptors(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.AggregateDescriptors;
+        }
+        private object get_86_AggregateDescriptorBase_Format(object instance)
+        {
+            var that = (global::Telerik.Data.Core.AggregateDescriptorBase)instance;
+            return that.Format;
+        }
+        private void set_86_AggregateDescriptorBase_Format(object instance, object Value)
+        {
+            var that = (global::Telerik.Data.Core.AggregateDescriptorBase)instance;
+            that.Format = (global::System.String)Value;
+        }
+        private object get_87_RadListView_Commands(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.Commands;
+        }
+        private object get_88_AttachableObject_Owner(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Telerik.UI.Xaml.Controls.Data.RadListView>)instance;
+            return that.Owner;
+        }
+        private object get_89_RadListView_ScrollOffset(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ScrollOffset;
+        }
+        private object get_90_RadListView_CurrentItem(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.CurrentItem;
+        }
+        private object get_91_RadListView_EnsureCurrentItemIntoView(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.EnsureCurrentItemIntoView;
+        }
+        private void set_91_RadListView_EnsureCurrentItemIntoView(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.EnsureCurrentItemIntoView = (global::System.Boolean)Value;
+        }
+        private object get_92_RadListView_IsSynchronizedWithCurrentItem(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.IsSynchronizedWithCurrentItem;
+        }
+        private void set_92_RadListView_IsSynchronizedWithCurrentItem(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.IsSynchronizedWithCurrentItem = (global::System.Boolean)Value;
+        }
+        private object get_93_RadListView_ItemRemovedAnimation(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemRemovedAnimation;
+        }
+        private void set_93_RadListView_ItemRemovedAnimation(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemRemovedAnimation = (global::Telerik.Core.RadAnimation)Value;
+        }
+        private object get_94_RadListView_ItemAddedAnimation(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemAddedAnimation;
+        }
+        private void set_94_RadListView_ItemAddedAnimation(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemAddedAnimation = (global::Telerik.Core.RadAnimation)Value;
+        }
+        private object get_95_RadListView_ItemAnimationMode(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemAnimationMode;
+        }
+        private void set_95_RadListView_ItemAnimationMode(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemAnimationMode = (global::Telerik.UI.Xaml.Controls.Data.ItemAnimationMode)Value;
+        }
+        private object get_96_RadListView_ItemSwipeDirection(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemSwipeDirection;
+        }
+        private void set_96_RadListView_ItemSwipeDirection(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemSwipeDirection = (global::Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection)Value;
+        }
+        private object get_97_RadListView_IsPullToRefreshEnabled(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.IsPullToRefreshEnabled;
+        }
+        private void set_97_RadListView_IsPullToRefreshEnabled(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.IsPullToRefreshEnabled = (global::System.Boolean)Value;
+        }
+        private object get_98_RadListView_PullToRefreshScrollMode(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.PullToRefreshScrollMode;
+        }
+        private void set_98_RadListView_PullToRefreshScrollMode(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.PullToRefreshScrollMode = (global::Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshScrollMode)Value;
+        }
+        private object get_99_RadListView_IsPullToRefreshActive(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.IsPullToRefreshActive;
+        }
+        private void set_99_RadListView_IsPullToRefreshActive(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.IsPullToRefreshActive = (global::System.Boolean)Value;
+        }
+        private object get_100_RadListView_IsItemReorderEnabled(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.IsItemReorderEnabled;
+        }
+        private void set_100_RadListView_IsItemReorderEnabled(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.IsItemReorderEnabled = (global::System.Boolean)Value;
+        }
+        private object get_101_RadListView_ReorderMode(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ReorderMode;
+        }
+        private void set_101_RadListView_ReorderMode(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ReorderMode = (global::Telerik.UI.Xaml.Controls.Data.ListViewReorderMode)Value;
+        }
+        private object get_102_RadListView_SelectedItems(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.SelectedItems;
+        }
+        private object get_103_RadListView_SelectedItem(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.SelectedItem;
+        }
+        private void set_103_RadListView_SelectedItem(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.SelectedItem = (global::System.Object)Value;
+        }
+        private object get_104_RadListView_SelectionMode(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.SelectionMode;
+        }
+        private void set_104_RadListView_SelectionMode(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.SelectionMode = (global::Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode)Value;
+        }
+        private object get_105_RadListView_ItemSwipeThreshold(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemSwipeThreshold;
+        }
+        private void set_105_RadListView_ItemSwipeThreshold(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemSwipeThreshold = (global::System.Double)Value;
+        }
+        private object get_106_RadListView_ItemSwipeOffset(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.ItemSwipeOffset;
+        }
+        private void set_106_RadListView_ItemSwipeOffset(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.ItemSwipeOffset = (global::Microsoft.UI.Xaml.Thickness)Value;
+        }
+        private object get_107_RadListView_IsActionOnSwipeEnabled(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.IsActionOnSwipeEnabled;
+        }
+        private void set_107_RadListView_IsActionOnSwipeEnabled(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.IsActionOnSwipeEnabled = (global::System.Boolean)Value;
+        }
+        private object get_108_RadListView_SwipeActionContent(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            return that.SwipeActionContent;
+        }
+        private void set_108_RadListView_SwipeActionContent(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Data.RadListView)instance;
+            that.SwipeActionContent = (global::System.Object)Value;
+        }
+        private object get_109_RadControl_CurrentVisualState(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.RadControl)instance;
+            return that.CurrentVisualState;
+        }
+        private object get_110_BusyIndicatorAnimationAdapter_Animation(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter)instance;
+            return that.Animation;
+        }
+        private void set_110_BusyIndicatorAnimationAdapter_Animation(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter)instance;
+            that.Animation = (global::Microsoft.UI.Xaml.Media.Animation.Storyboard)Value;
+        }
+        private object get_111_RadRadialMenu_Items(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.Items;
+        }
+        private object get_112_RadialMenuItem_ChildItems(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.ChildItems;
+        }
+        private object get_113_RadialMenuItem_ToolTipContent(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.ToolTipContent;
+        }
+        private void set_113_RadialMenuItem_ToolTipContent(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.ToolTipContent = (global::System.Object)Value;
+        }
+        private object get_114_RadialMenuItem_CommandParameter(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.CommandParameter;
+        }
+        private void set_114_RadialMenuItem_CommandParameter(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.CommandParameter = (global::System.Object)Value;
+        }
+        private object get_115_RadialMenuItem_IsEnabled(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.IsEnabled;
+        }
+        private void set_115_RadialMenuItem_IsEnabled(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.IsEnabled = (global::System.Boolean)Value;
+        }
+        private object get_116_RadialMenuItem_Command(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.Command;
+        }
+        private void set_116_RadialMenuItem_Command(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.Command = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_117_RadialMenuItem_ParentItem(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.ParentItem;
+        }
+        private object get_118_RadialMenuItem_IsSelected(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.IsSelected;
+        }
+        private void set_118_RadialMenuItem_IsSelected(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.IsSelected = (global::System.Boolean)Value;
+        }
+        private object get_119_RadialMenuItem_GroupName(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.GroupName;
+        }
+        private void set_119_RadialMenuItem_GroupName(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.GroupName = (global::System.String)Value;
+        }
+        private object get_120_RadialMenuItem_Selectable(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.Selectable;
+        }
+        private void set_120_RadialMenuItem_Selectable(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.Selectable = (global::System.Boolean)Value;
+        }
+        private object get_121_RadialMenuItem_Deselectable(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.Deselectable;
+        }
+        private void set_121_RadialMenuItem_Deselectable(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.Deselectable = (global::System.Boolean)Value;
+        }
+        private object get_122_RadialMenuItem_Header(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.Header;
+        }
+        private void set_122_RadialMenuItem_Header(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_123_RadialMenuItem_IconContent(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.IconContent;
+        }
+        private void set_123_RadialMenuItem_IconContent(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.IconContent = (global::System.Object)Value;
+        }
+        private object get_124_RadialMenuItem_ContentSectorBackground(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            return that.ContentSectorBackground;
+        }
+        private void set_124_RadialMenuItem_ContentSectorBackground(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem)instance;
+            that.ContentSectorBackground = (global::Microsoft.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_125_RadRadialMenu_ShowToolTip(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.ShowToolTip;
+        }
+        private void set_125_RadRadialMenu_ShowToolTip(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            that.ShowToolTip = (global::System.Boolean)Value;
+        }
+        private object get_126_RadRadialMenu_IsOpen(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.IsOpen;
+        }
+        private void set_126_RadRadialMenu_IsOpen(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            that.IsOpen = (global::System.Boolean)Value;
+        }
+        private object get_127_RadRadialMenu_StartAngle(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.StartAngle;
+        }
+        private void set_127_RadRadialMenu_StartAngle(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            that.StartAngle = (global::System.Double)Value;
+        }
+        private object get_128_RadRadialMenu_InnerNavigationRadiusFactor(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.InnerNavigationRadiusFactor;
+        }
+        private void set_128_RadRadialMenu_InnerNavigationRadiusFactor(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            that.InnerNavigationRadiusFactor = (global::System.Double)Value;
+        }
+        private object get_129_RadRadialMenu_InnerRadiusFactor(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.InnerRadiusFactor;
+        }
+        private void set_129_RadRadialMenu_InnerRadiusFactor(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            that.InnerRadiusFactor = (global::System.Double)Value;
+        }
+        private object get_130_RadRadialMenu_OuterRadiusFactor(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.OuterRadiusFactor;
+        }
+        private void set_130_RadRadialMenu_OuterRadiusFactor(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            that.OuterRadiusFactor = (global::System.Double)Value;
+        }
+        private object get_131_RadRadialMenu_ContentMenuBackgroundStyle(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.ContentMenuBackgroundStyle;
+        }
+        private void set_131_RadRadialMenu_ContentMenuBackgroundStyle(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            that.ContentMenuBackgroundStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_132_RadRadialMenu_NavigationMenuBackgroundStyle(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.NavigationMenuBackgroundStyle;
+        }
+        private void set_132_RadRadialMenu_NavigationMenuBackgroundStyle(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            that.NavigationMenuBackgroundStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_133_RadRadialMenu_CommandService(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.CommandService;
+        }
+        private object get_134_RadRadialMenu_Commands(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.Commands;
+        }
+        private object get_135_AttachableObject_Owner(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>)instance;
+            return that.Owner;
+        }
+        private object get_136_RadRadialMenu_TargetElement(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu)instance;
+            return that.TargetElement;
+        }
+        private object get_137_RadialMenuTriggerBehavior_AttachTriggers(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior)instance;
+            return that.AttachTriggers;
+        }
+        private void set_137_RadialMenuTriggerBehavior_AttachTriggers(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior)instance;
+            that.AttachTriggers = (global::Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers)Value;
+        }
+        private object get_138_AttachableObject_Owner(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Primitives.AttachableObject<global::Microsoft.UI.Xaml.FrameworkElement>)instance;
+            return that.Owner;
+        }
+        private object get_139_ChartAnnotationLabelDefinition_Format(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            return that.Format;
+        }
+        private void set_139_ChartAnnotationLabelDefinition_Format(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            that.Format = (global::System.String)Value;
+        }
+        private object get_140_ChartAnnotationLabelDefinition_LabelTemplate(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            return that.LabelTemplate;
+        }
+        private void set_140_ChartAnnotationLabelDefinition_LabelTemplate(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            that.LabelTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_141_ChartAnnotationLabelDefinition_DefaultVisualStyle(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            return that.DefaultVisualStyle;
+        }
+        private void set_141_ChartAnnotationLabelDefinition_DefaultVisualStyle(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            that.DefaultVisualStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_142_ChartAnnotationLabelDefinition_Location(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            return that.Location;
+        }
+        private void set_142_ChartAnnotationLabelDefinition_Location(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            that.Location = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation)Value;
+        }
+        private object get_143_ChartAnnotationLabelDefinition_HorizontalAlignment(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            return that.HorizontalAlignment;
+        }
+        private void set_143_ChartAnnotationLabelDefinition_HorizontalAlignment(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            that.HorizontalAlignment = (global::Microsoft.UI.Xaml.HorizontalAlignment)Value;
+        }
+        private object get_144_ChartAnnotationLabelDefinition_VerticalAlignment(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            return that.VerticalAlignment;
+        }
+        private void set_144_ChartAnnotationLabelDefinition_VerticalAlignment(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            that.VerticalAlignment = (global::Microsoft.UI.Xaml.VerticalAlignment)Value;
+        }
+        private object get_145_ChartAnnotationLabelDefinition_HorizontalOffset(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            return that.HorizontalOffset;
+        }
+        private void set_145_ChartAnnotationLabelDefinition_HorizontalOffset(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            that.HorizontalOffset = (global::System.Double)Value;
+        }
+        private object get_146_ChartAnnotationLabelDefinition_VerticalOffset(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            return that.VerticalOffset;
+        }
+        private void set_146_ChartAnnotationLabelDefinition_VerticalOffset(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition)instance;
+            that.VerticalOffset = (global::System.Double)Value;
+        }
+        private object get_147_ChartPalette_Name(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            return that.Name;
+        }
+        private void set_147_ChartPalette_Name(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_148_ChartPalette_FillEntries(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            return that.FillEntries;
+        }
+        private void set_148_ChartPalette_FillEntries(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            that.FillEntries = (global::Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection)Value;
+        }
+        private object get_149_PaletteEntryCollection_Brushes(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection)instance;
+            return that.Brushes;
+        }
+        private object get_150_ChartPalette_SpecialFillEntries(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            return that.SpecialFillEntries;
+        }
+        private void set_150_ChartPalette_SpecialFillEntries(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            that.SpecialFillEntries = (global::Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection)Value;
+        }
+        private object get_151_ChartPalette_StrokeEntries(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            return that.StrokeEntries;
+        }
+        private void set_151_ChartPalette_StrokeEntries(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            that.StrokeEntries = (global::Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection)Value;
+        }
+        private object get_152_ChartPalette_SpecialStrokeEntries(object instance)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            return that.SpecialStrokeEntries;
+        }
+        private void set_152_ChartPalette_SpecialStrokeEntries(object instance, object Value)
+        {
+            var that = (global::Telerik.UI.Xaml.Controls.Chart.ChartPalette)instance;
+            that.SpecialStrokeEntries = (global::Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection)Value;
+        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -1466,6 +3787,706 @@ namespace ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo
                 xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember.Getter = get_47_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader.IsExpanded":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_48_ListViewGroupHeader_IsExpanded;
+                xamlMember.Setter = set_48_ListViewGroupHeader_IsExpanded;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader.IsFrozen":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsFrozen", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_49_ListViewGroupHeader_IsFrozen;
+                xamlMember.Setter = set_49_ListViewGroupHeader_IsFrozen;
+                break;
+            case "Telerik.UI.Xaml.Controls.RadContentControl.CurrentVisualState":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.RadContentControl");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "CurrentVisualState", "String");
+                xamlMember.Getter = get_50_RadContentControl_CurrentVisualState;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.RadContentControl.IsLoaded":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.RadContentControl");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsLoaded", "Boolean");
+                xamlMember.Getter = get_51_RadContentControl_IsLoaded;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.RadContentControl.IsTemplateApplied":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.RadContentControl");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsTemplateApplied", "Boolean");
+                xamlMember.Getter = get_52_RadContentControl_IsTemplateApplied;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.RadContentControl.IsFocused":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.RadContentControl");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsFocused", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_53_RadContentControl_IsFocused;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView.EnableNativeFocus":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "EnableNativeFocus", "Boolean");
+                xamlMember.Getter = get_54_UWPListView_EnableNativeFocus;
+                xamlMember.Setter = set_54_UWPListView_EnableNativeFocus;
+                break;
+            case "Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView.ListView":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ListView", "Telerik.Maui.Controls.Compatibility.DataControls.RadListView");
+                xamlMember.Getter = get_55_UWPListView_ListView;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView.VerticalScrollBarVisibility":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.Maui.Controls.Compatibility.DataControlsRenderer.UWP.UWPListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "VerticalScrollBarVisibility", "Microsoft.UI.Xaml.Controls.ScrollBarVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_56_UWPListView_VerticalScrollBarVisibility;
+                xamlMember.Setter = set_56_UWPListView_VerticalScrollBarVisibility;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.RealizedItemsBufferScale":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "RealizedItemsBufferScale", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_57_RadListView_RealizedItemsBufferScale;
+                xamlMember.Setter = set_57_RadListView_RealizedItemsBufferScale;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.EmptyContent":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "EmptyContent", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_58_RadListView_EmptyContent;
+                xamlMember.Setter = set_58_RadListView_EmptyContent;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.EmptyContentDisplayMode":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "EmptyContentDisplayMode", "Telerik.UI.Xaml.Controls.Data.EmptyContentDisplayMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_59_RadListView_EmptyContentDisplayMode;
+                xamlMember.Setter = set_59_RadListView_EmptyContentDisplayMode;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemTemplate":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_60_RadListView_ItemTemplate;
+                xamlMember.Setter = set_60_RadListView_ItemTemplate;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemStyle":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_61_RadListView_ItemStyle;
+                xamlMember.Setter = set_61_RadListView_ItemStyle;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemStyleSelector":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_62_RadListView_ItemStyleSelector;
+                xamlMember.Setter = set_62_RadListView_ItemStyleSelector;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemTemplateSelector":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_63_RadListView_ItemTemplateSelector;
+                xamlMember.Setter = set_63_RadListView_ItemTemplateSelector;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.Orientation":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Orientation", "Microsoft.UI.Xaml.Controls.Orientation");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_64_RadListView_Orientation;
+                xamlMember.Setter = set_64_RadListView_Orientation;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ListHeader":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ListHeader", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_65_RadListView_ListHeader;
+                xamlMember.Setter = set_65_RadListView_ListHeader;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ListFooter":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ListFooter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_66_RadListView_ListFooter;
+                xamlMember.Setter = set_66_RadListView_ListFooter;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.GroupHeaderTemplate":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "GroupHeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_67_RadListView_GroupHeaderTemplate;
+                xamlMember.Setter = set_67_RadListView_GroupHeaderTemplate;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.GroupHeaderTemplateSelector":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "GroupHeaderTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_68_RadListView_GroupHeaderTemplateSelector;
+                xamlMember.Setter = set_68_RadListView_GroupHeaderTemplateSelector;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.GroupHeaderStyle":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "GroupHeaderStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_69_RadListView_GroupHeaderStyle;
+                xamlMember.Setter = set_69_RadListView_GroupHeaderStyle;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.GroupHeaderStyleSelector":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "GroupHeaderStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_70_RadListView_GroupHeaderStyleSelector;
+                xamlMember.Setter = set_70_RadListView_GroupHeaderStyleSelector;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.GroupHeaderDisplayMode":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "GroupHeaderDisplayMode", "Telerik.UI.Xaml.Controls.Data.ListViewGroupHeaderDisplayMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_71_RadListView_GroupHeaderDisplayMode;
+                xamlMember.Setter = set_71_RadListView_GroupHeaderDisplayMode;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.CommandService":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "CommandService", "Telerik.UI.Xaml.Controls.Data.ListView.Commands.CommandService");
+                xamlMember.Getter = get_72_RadListView_CommandService;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.IncrementalLoadingMode":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IncrementalLoadingMode", "Telerik.Core.Data.BatchLoadingMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_73_RadListView_IncrementalLoadingMode;
+                xamlMember.Setter = set_73_RadListView_IncrementalLoadingMode;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.IncrementalLoadingBufferItemsCount":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IncrementalLoadingBufferItemsCount", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_74_RadListView_IncrementalLoadingBufferItemsCount;
+                xamlMember.Setter = set_74_RadListView_IncrementalLoadingBufferItemsCount;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.DisabledStateOpacity":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "DisabledStateOpacity", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_75_RadListView_DisabledStateOpacity;
+                xamlMember.Setter = set_75_RadListView_DisabledStateOpacity;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.IsBusyIndicatorEnabled":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsBusyIndicatorEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_76_RadListView_IsBusyIndicatorEnabled;
+                xamlMember.Setter = set_76_RadListView_IsBusyIndicatorEnabled;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemsSource":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_77_RadListView_ItemsSource;
+                xamlMember.Setter = set_77_RadListView_ItemsSource;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.LayoutDefinition":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "LayoutDefinition", "Telerik.UI.Xaml.Controls.Data.ListView.LayoutDefinitionBase");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_78_RadListView_LayoutDefinition;
+                xamlMember.Setter = set_78_RadListView_LayoutDefinition;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.SortDescriptors":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "SortDescriptors", "Telerik.Data.Core.SortDescriptorCollection");
+                xamlMember.Getter = get_79_RadListView_SortDescriptors;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.Data.Core.SortDescriptorBase.Comparer":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.Data.Core.SortDescriptorBase");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Comparer", "System.Collections.IComparer");
+                xamlMember.Getter = get_80_SortDescriptorBase_Comparer;
+                xamlMember.Setter = set_80_SortDescriptorBase_Comparer;
+                break;
+            case "Telerik.Data.Core.OrderedDescriptor.SortOrder":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.Data.Core.OrderedDescriptor");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "SortOrder", "Telerik.Data.Core.SortOrder");
+                xamlMember.Getter = get_81_OrderedDescriptor_SortOrder;
+                xamlMember.Setter = set_81_OrderedDescriptor_SortOrder;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.GroupDescriptors":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "GroupDescriptors", "Telerik.Data.Core.GroupDescriptorCollection");
+                xamlMember.Getter = get_82_RadListView_GroupDescriptors;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.Data.Core.GroupDescriptorBase.DisplayContent":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.Data.Core.GroupDescriptorBase");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "DisplayContent", "Object");
+                xamlMember.Getter = get_83_GroupDescriptorBase_DisplayContent;
+                xamlMember.Setter = set_83_GroupDescriptorBase_DisplayContent;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.FilterDescriptors":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "FilterDescriptors", "Telerik.Data.Core.FilterDescriptorCollection");
+                xamlMember.Getter = get_84_RadListView_FilterDescriptors;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.AggregateDescriptors":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "AggregateDescriptors", "Telerik.Data.Core.AggregateDescriptorCollection");
+                xamlMember.Getter = get_85_RadListView_AggregateDescriptors;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.Data.Core.AggregateDescriptorBase.Format":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.Data.Core.AggregateDescriptorBase");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Format", "String");
+                xamlMember.Getter = get_86_AggregateDescriptorBase_Format;
+                xamlMember.Setter = set_86_AggregateDescriptorBase_Format;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.Commands":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Commands", "Telerik.UI.Xaml.Controls.Primitives.CommandCollection`1<Telerik.UI.Xaml.Controls.Data.RadListView>");
+                xamlMember.Getter = get_87_RadListView_Commands;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Data.RadListView>.Owner":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Data.RadListView>");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Owner", "Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember.Getter = get_88_AttachableObject_Owner;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ScrollOffset":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ScrollOffset", "Double");
+                xamlMember.Getter = get_89_RadListView_ScrollOffset;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.CurrentItem":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "CurrentItem", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_90_RadListView_CurrentItem;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.EnsureCurrentItemIntoView":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "EnsureCurrentItemIntoView", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_91_RadListView_EnsureCurrentItemIntoView;
+                xamlMember.Setter = set_91_RadListView_EnsureCurrentItemIntoView;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.IsSynchronizedWithCurrentItem":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsSynchronizedWithCurrentItem", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_92_RadListView_IsSynchronizedWithCurrentItem;
+                xamlMember.Setter = set_92_RadListView_IsSynchronizedWithCurrentItem;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemRemovedAnimation":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemRemovedAnimation", "Telerik.Core.RadAnimation");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_93_RadListView_ItemRemovedAnimation;
+                xamlMember.Setter = set_93_RadListView_ItemRemovedAnimation;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemAddedAnimation":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemAddedAnimation", "Telerik.Core.RadAnimation");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_94_RadListView_ItemAddedAnimation;
+                xamlMember.Setter = set_94_RadListView_ItemAddedAnimation;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemAnimationMode":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemAnimationMode", "Telerik.UI.Xaml.Controls.Data.ItemAnimationMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_95_RadListView_ItemAnimationMode;
+                xamlMember.Setter = set_95_RadListView_ItemAnimationMode;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemSwipeDirection":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemSwipeDirection", "Telerik.UI.Xaml.Controls.Data.ListViewItemSwipeDirection");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_96_RadListView_ItemSwipeDirection;
+                xamlMember.Setter = set_96_RadListView_ItemSwipeDirection;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.IsPullToRefreshEnabled":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsPullToRefreshEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_97_RadListView_IsPullToRefreshEnabled;
+                xamlMember.Setter = set_97_RadListView_IsPullToRefreshEnabled;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.PullToRefreshScrollMode":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "PullToRefreshScrollMode", "Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshScrollMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_98_RadListView_PullToRefreshScrollMode;
+                xamlMember.Setter = set_98_RadListView_PullToRefreshScrollMode;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.IsPullToRefreshActive":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsPullToRefreshActive", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_99_RadListView_IsPullToRefreshActive;
+                xamlMember.Setter = set_99_RadListView_IsPullToRefreshActive;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.IsItemReorderEnabled":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsItemReorderEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_100_RadListView_IsItemReorderEnabled;
+                xamlMember.Setter = set_100_RadListView_IsItemReorderEnabled;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ReorderMode":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ReorderMode", "Telerik.UI.Xaml.Controls.Data.ListViewReorderMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_101_RadListView_ReorderMode;
+                xamlMember.Setter = set_101_RadListView_ReorderMode;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.SelectedItems":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "SelectedItems", "Telerik.Core.BindableCollection`1<Object>");
+                xamlMember.Getter = get_102_RadListView_SelectedItems;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.SelectedItem":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_103_RadListView_SelectedItem;
+                xamlMember.Setter = set_103_RadListView_SelectedItem;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.SelectionMode":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "SelectionMode", "Telerik.UI.Xaml.Controls.Data.ListView.DataControlsSelectionMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_104_RadListView_SelectionMode;
+                xamlMember.Setter = set_104_RadListView_SelectionMode;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemSwipeThreshold":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemSwipeThreshold", "Double");
+                xamlMember.Getter = get_105_RadListView_ItemSwipeThreshold;
+                xamlMember.Setter = set_105_RadListView_ItemSwipeThreshold;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.ItemSwipeOffset":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ItemSwipeOffset", "Microsoft.UI.Xaml.Thickness");
+                xamlMember.Getter = get_106_RadListView_ItemSwipeOffset;
+                xamlMember.Setter = set_106_RadListView_ItemSwipeOffset;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.IsActionOnSwipeEnabled":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsActionOnSwipeEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_107_RadListView_IsActionOnSwipeEnabled;
+                xamlMember.Setter = set_107_RadListView_IsActionOnSwipeEnabled;
+                break;
+            case "Telerik.UI.Xaml.Controls.Data.RadListView.SwipeActionContent":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Data.RadListView");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "SwipeActionContent", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_108_RadListView_SwipeActionContent;
+                xamlMember.Setter = set_108_RadListView_SwipeActionContent;
+                break;
+            case "Telerik.UI.Xaml.Controls.RadControl.CurrentVisualState":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.RadControl");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "CurrentVisualState", "String");
+                xamlMember.Getter = get_109_RadControl_CurrentVisualState;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter.Animation":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimationAdapter");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Animation", "Microsoft.UI.Xaml.Media.Animation.Storyboard");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_110_BusyIndicatorAnimationAdapter_Animation;
+                xamlMember.Setter = set_110_BusyIndicatorAnimationAdapter_Animation;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.Items":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Items", "Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>");
+                xamlMember.Getter = get_111_RadRadialMenu_Items;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.ChildItems":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ChildItems", "Telerik.Core.BindableCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem>");
+                xamlMember.Getter = get_112_RadialMenuItem_ChildItems;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.ToolTipContent":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ToolTipContent", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_113_RadialMenuItem_ToolTipContent;
+                xamlMember.Setter = set_113_RadialMenuItem_ToolTipContent;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.CommandParameter":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_114_RadialMenuItem_CommandParameter;
+                xamlMember.Setter = set_114_RadialMenuItem_CommandParameter;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.IsEnabled":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_115_RadialMenuItem_IsEnabled;
+                xamlMember.Setter = set_115_RadialMenuItem_IsEnabled;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.Command":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_116_RadialMenuItem_Command;
+                xamlMember.Setter = set_116_RadialMenuItem_Command;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.ParentItem":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ParentItem", "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember.Getter = get_117_RadialMenuItem_ParentItem;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.IsSelected":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_118_RadialMenuItem_IsSelected;
+                xamlMember.Setter = set_118_RadialMenuItem_IsSelected;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.GroupName":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "GroupName", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_119_RadialMenuItem_GroupName;
+                xamlMember.Setter = set_119_RadialMenuItem_GroupName;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.Selectable":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Selectable", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_120_RadialMenuItem_Selectable;
+                xamlMember.Setter = set_120_RadialMenuItem_Selectable;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.Deselectable":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Deselectable", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_121_RadialMenuItem_Deselectable;
+                xamlMember.Setter = set_121_RadialMenuItem_Deselectable;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.Header":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_122_RadialMenuItem_Header;
+                xamlMember.Setter = set_122_RadialMenuItem_Header;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.IconContent":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IconContent", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_123_RadialMenuItem_IconContent;
+                xamlMember.Setter = set_123_RadialMenuItem_IconContent;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem.ContentSectorBackground":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuItem");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ContentSectorBackground", "Microsoft.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_124_RadialMenuItem_ContentSectorBackground;
+                xamlMember.Setter = set_124_RadialMenuItem_ContentSectorBackground;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.ShowToolTip":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ShowToolTip", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_125_RadRadialMenu_ShowToolTip;
+                xamlMember.Setter = set_125_RadRadialMenu_ShowToolTip;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.IsOpen":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_126_RadRadialMenu_IsOpen;
+                xamlMember.Setter = set_126_RadRadialMenu_IsOpen;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.StartAngle":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "StartAngle", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_127_RadRadialMenu_StartAngle;
+                xamlMember.Setter = set_127_RadRadialMenu_StartAngle;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.InnerNavigationRadiusFactor":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "InnerNavigationRadiusFactor", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_128_RadRadialMenu_InnerNavigationRadiusFactor;
+                xamlMember.Setter = set_128_RadRadialMenu_InnerNavigationRadiusFactor;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.InnerRadiusFactor":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "InnerRadiusFactor", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_129_RadRadialMenu_InnerRadiusFactor;
+                xamlMember.Setter = set_129_RadRadialMenu_InnerRadiusFactor;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.OuterRadiusFactor":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "OuterRadiusFactor", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_130_RadRadialMenu_OuterRadiusFactor;
+                xamlMember.Setter = set_130_RadRadialMenu_OuterRadiusFactor;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.ContentMenuBackgroundStyle":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "ContentMenuBackgroundStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_131_RadRadialMenu_ContentMenuBackgroundStyle;
+                xamlMember.Setter = set_131_RadRadialMenu_ContentMenuBackgroundStyle;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.NavigationMenuBackgroundStyle":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "NavigationMenuBackgroundStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_132_RadRadialMenu_NavigationMenuBackgroundStyle;
+                xamlMember.Setter = set_132_RadRadialMenu_NavigationMenuBackgroundStyle;
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.CommandService":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "CommandService", "Telerik.UI.Xaml.Controls.Navigation.Menu.CommandService");
+                xamlMember.Getter = get_133_RadRadialMenu_CommandService;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.Commands":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Commands", "Telerik.UI.Xaml.Controls.Primitives.CommandCollection`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>");
+                xamlMember.Getter = get_134_RadRadialMenu_Commands;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>.Owner":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu>");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Owner", "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember.Getter = get_135_AttachableObject_Owner;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu.TargetElement":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadRadialMenu");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "TargetElement", "Microsoft.UI.Xaml.FrameworkElement");
+                xamlMember.Getter = get_136_RadRadialMenu_TargetElement;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior.AttachTriggers":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Navigation.RadialMenuTriggerBehavior");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "AttachTriggers", "Telerik.UI.Xaml.Controls.Navigation.RadialMenuAttachTriggers");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_137_RadialMenuTriggerBehavior_AttachTriggers;
+                xamlMember.Setter = set_137_RadialMenuTriggerBehavior_AttachTriggers;
+                break;
+            case "Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Microsoft.UI.Xaml.FrameworkElement>.Owner":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Primitives.AttachableObject`1<Microsoft.UI.Xaml.FrameworkElement>");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Owner", "Microsoft.UI.Xaml.FrameworkElement");
+                xamlMember.Getter = get_138_AttachableObject_Owner;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition.Format":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Format", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_139_ChartAnnotationLabelDefinition_Format;
+                xamlMember.Setter = set_139_ChartAnnotationLabelDefinition_Format;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition.LabelTemplate":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "LabelTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_140_ChartAnnotationLabelDefinition_LabelTemplate;
+                xamlMember.Setter = set_140_ChartAnnotationLabelDefinition_LabelTemplate;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition.DefaultVisualStyle":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "DefaultVisualStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_141_ChartAnnotationLabelDefinition_DefaultVisualStyle;
+                xamlMember.Setter = set_141_ChartAnnotationLabelDefinition_DefaultVisualStyle;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition.Location":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Location", "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelLocation");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_142_ChartAnnotationLabelDefinition_Location;
+                xamlMember.Setter = set_142_ChartAnnotationLabelDefinition_Location;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition.HorizontalAlignment":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "HorizontalAlignment", "Microsoft.UI.Xaml.HorizontalAlignment");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_143_ChartAnnotationLabelDefinition_HorizontalAlignment;
+                xamlMember.Setter = set_143_ChartAnnotationLabelDefinition_HorizontalAlignment;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition.VerticalAlignment":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "VerticalAlignment", "Microsoft.UI.Xaml.VerticalAlignment");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_144_ChartAnnotationLabelDefinition_VerticalAlignment;
+                xamlMember.Setter = set_144_ChartAnnotationLabelDefinition_VerticalAlignment;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition.HorizontalOffset":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "HorizontalOffset", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_145_ChartAnnotationLabelDefinition_HorizontalOffset;
+                xamlMember.Setter = set_145_ChartAnnotationLabelDefinition_HorizontalOffset;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition.VerticalOffset":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartAnnotationLabelDefinition");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "VerticalOffset", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_146_ChartAnnotationLabelDefinition_VerticalOffset;
+                xamlMember.Setter = set_146_ChartAnnotationLabelDefinition_VerticalOffset;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartPalette.Name":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartPalette");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_147_ChartPalette_Name;
+                xamlMember.Setter = set_147_ChartPalette_Name;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartPalette.FillEntries":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartPalette");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "FillEntries", "Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection");
+                xamlMember.Getter = get_148_ChartPalette_FillEntries;
+                xamlMember.Setter = set_148_ChartPalette_FillEntries;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection.Brushes":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "Brushes", "System.Collections.Generic.List`1<Microsoft.UI.Xaml.Media.Brush>");
+                xamlMember.Getter = get_149_PaletteEntryCollection_Brushes;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartPalette.SpecialFillEntries":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartPalette");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "SpecialFillEntries", "Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection");
+                xamlMember.Getter = get_150_ChartPalette_SpecialFillEntries;
+                xamlMember.Setter = set_150_ChartPalette_SpecialFillEntries;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartPalette.StrokeEntries":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartPalette");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "StrokeEntries", "Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection");
+                xamlMember.Getter = get_151_ChartPalette_StrokeEntries;
+                xamlMember.Setter = set_151_ChartPalette_StrokeEntries;
+                break;
+            case "Telerik.UI.Xaml.Controls.Chart.ChartPalette.SpecialStrokeEntries":
+                userType = (global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Telerik.UI.Xaml.Controls.Chart.ChartPalette");
+                xamlMember = new global::ExchangeRate_MAUIApp.ExchangeRate_MAUIApp_XamlTypeInfo.XamlMember(this, "SpecialStrokeEntries", "Telerik.UI.Xaml.Controls.Chart.PaletteEntryCollection");
+                xamlMember.Getter = get_152_ChartPalette_SpecialStrokeEntries;
+                xamlMember.Setter = set_152_ChartPalette_SpecialStrokeEntries;
                 break;
             }
             return xamlMember;

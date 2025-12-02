@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExchangeRate-MAUIApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b4b0244ffd49102b81e79d1a09c05fce03e62863")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExchangeRate-MAUIApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExchangeRate-MAUIApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

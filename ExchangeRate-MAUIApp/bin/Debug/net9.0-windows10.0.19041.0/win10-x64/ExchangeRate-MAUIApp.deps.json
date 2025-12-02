@@ -14,10 +14,12 @@
           "Microsoft.Extensions.Http": "10.0.0",
           "Microsoft.Extensions.Logging.Debug": "9.0.5",
           "Microsoft.Maui.Controls": "9.0.111",
+          "OxyPlot.Maui.Skia": "1.1.0",
           "SkiaSharp.Views.Maui.Controls": "3.119.1",
           "Syncfusion.Maui.Charts": "31.2.15",
           "System.Net.Http": "4.3.4",
           "System.ObjectModel": "4.3.0",
+          "Telerik.UI.for.Maui": "12.0.0",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.3179.45",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
@@ -42,6 +44,24 @@
           "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.dll": {
             "assemblyVersion": "8.4.0.0",
             "fileVersion": "8.4.0.1"
+          }
+        }
+      },
+      "HarfBuzzSharp/8.3.0.1": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "8.3.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "8.3.0.1"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/8.3.0.1": {
+        "native": {
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -588,6 +608,28 @@
           }
         }
       },
+      "OxyPlot.Core/2.2.0": {
+        "runtime": {
+          "lib/net8.0/OxyPlot.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "OxyPlot.Maui.Skia/1.1.0": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "9.0.111",
+          "OxyPlot.Core": "2.2.0",
+          "SkiaSharp.HarfBuzz": "3.116.1",
+          "SkiaSharp.Views.Maui.Controls": "3.119.1"
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041/OxyPlot.Maui.Skia.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
       "runtime.any.System.Collections/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -706,6 +748,18 @@
           "lib/net8.0-windows10.0.19041/SkiaSharp.dll": {
             "assemblyVersion": "3.119.0.0",
             "fileVersion": "3.119.1.0"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/3.116.1": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.0.1",
+          "SkiaSharp": "3.119.1"
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.HarfBuzz.dll": {
+            "assemblyVersion": "3.116.0.0",
+            "fileVersion": "3.116.1.0"
           }
         }
       },
@@ -1142,6 +1196,14 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2"
         }
       },
+      "System.Security.Cryptography.Pkcs/9.0.9": {
+        "runtime": {
+          "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.925.41916"
+          }
+        }
+      },
       "System.Security.Cryptography.Primitives/4.3.0": {
         "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
@@ -1221,6 +1283,63 @@
           "runtime.any.System.Threading.Tasks": "4.3.0"
         }
       },
+      "Telerik.Documents.Core/2025.4.1104": {
+        "dependencies": {
+          "Telerik.Licensing": "1.6.31"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Core.dll": {
+            "assemblyVersion": "2025.4.1104.20",
+            "fileVersion": "2025.4.1104.20"
+          }
+        }
+      },
+      "Telerik.Documents.Fixed/2025.4.1104": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "9.0.9",
+          "Telerik.Documents.Core": "2025.4.1104",
+          "Telerik.Licensing": "1.6.31"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Fixed.dll": {
+            "assemblyVersion": "2025.4.1104.20",
+            "fileVersion": "2025.4.1104.20"
+          }
+        }
+      },
+      "Telerik.Licensing/1.6.31": {
+        "runtime": {
+          "lib/net9.0/Telerik.Licensing.Runtime.dll": {
+            "assemblyVersion": "1.6.31.0",
+            "fileVersion": "1.6.31.0"
+          }
+        }
+      },
+      "Telerik.UI.for.Maui/12.0.0": {
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "3.119.1",
+          "Telerik.Documents.Fixed": "2025.4.1104",
+          "Telerik.Licensing": "1.6.31"
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041/Telerik.Maui.Controls.Compatibility.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          },
+          "lib/net9.0-windows10.0.19041/Telerik.Maui.Controls.WinUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net9.0-windows10.0.19041/Telerik.Maui.Controls.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          },
+          "lib/net9.0-windows10.0.19041/Telerik.Maui.Core.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
       "Microsoft.Web.WebView2.Core.Projection/1.0.3179.45": {
         "runtime": {
           "Microsoft.Web.WebView2.Core.Projection.dll": {
@@ -1248,6 +1367,20 @@
       "sha512": "sha512-tqVU8yc/ADO9oiTRyTnwhFN68hCwvkliMierptWOudIAvWY1mWCh5VFh+guwHJmpMwfg0J0rY+yyd5Oy7ty9Uw==",
       "path": "communitytoolkit.mvvm/8.4.0",
       "hashPath": "communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+    },
+    "HarfBuzzSharp/8.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rwLpl+W6uqu0DuvzqNhTMuFcXfy1Vc0uq0YXgPEmtTSfeUSAye1FcARrm2YIPOSiCBwBOGu3cLvMX5Fp6OKe2g==",
+      "path": "harfbuzzsharp/8.3.0.1",
+      "hashPath": "harfbuzzsharp.8.3.0.1.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/8.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ow0DtGEUjo65qhiI22of7qiVbN1xDFsZ5P5xJljRmGZ5WSxNy+1batLNJFGxahqhB1MTHYV8kAXf0GqC8WaevQ==",
+      "path": "harfbuzzsharp.nativeassets.win32/8.3.0.1",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.8.3.0.1.nupkg.sha512"
     },
     "Microcharts.Maui/1.0.1": {
       "type": "package",
@@ -1472,6 +1605,20 @@
       "sha512": "sha512-LdMRw0HqGu/w0DQKDRaABdIuSL8GiRitHSMiHH3SAR715/mEiWtVWPRJKp0aMcQ6JiBBqkQVZgu71MeXmQipkw==",
       "path": "microsoft.windowsappsdk/1.7.250606001",
       "hashPath": "microsoft.windowsappsdk.1.7.250606001.nupkg.sha512"
+    },
+    "OxyPlot.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QhXNdXR5FPpro/VoLx3BOp6AhQo7YrbfmWEZ9cgY+pnYM7RYORZjnu+aDMA8ka9A1r8hLkX//NbCPZNUv+l8qA==",
+      "path": "oxyplot.core/2.2.0",
+      "hashPath": "oxyplot.core.2.2.0.nupkg.sha512"
+    },
+    "OxyPlot.Maui.Skia/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8co/3k1rIY8vK/fskcgmXyXMttDkEqd1ZJaCKfiAvnQ4uhkF9l9l/4QJ4pASg/qMyB2784B/Z68ZHuCUkBSiiA==",
+      "path": "oxyplot.maui.skia/1.1.0",
+      "hashPath": "oxyplot.maui.skia.1.1.0.nupkg.sha512"
     },
     "runtime.any.System.Collections/4.3.0": {
       "type": "package",
@@ -1724,6 +1871,13 @@
       "sha512": "sha512-+Ru1BTSZQne3Vp+vbSb50Ke3Nlc3ZnItxx4+751J9WZ8YzLKAV/n+9DAo4zFTyeCI//ueT63c+VybmTTpYBEiw==",
       "path": "skiasharp/3.119.1",
       "hashPath": "skiasharp.3.119.1.nupkg.sha512"
+    },
+    "SkiaSharp.HarfBuzz/3.116.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ibDG1+quN86vBd9ztjDAC9wnvS1nRZ6ydTUOSod4NsRHWdLLGzWYn1IOF4Cg9iJh5cQHdpzhUZBQE0JMKznrow==",
+      "path": "skiasharp.harfbuzz/3.116.1",
+      "hashPath": "skiasharp.harfbuzz.3.116.1.nupkg.sha512"
     },
     "SkiaSharp.NativeAssets.Win32/3.119.1": {
       "type": "package",
@@ -1998,6 +2152,13 @@
       "path": "system.security.cryptography.openssl/4.3.0",
       "hashPath": "system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
+    "System.Security.Cryptography.Pkcs/9.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y7/wY5lqrzJOu53yLFLPGaeKBcdWNw193udOFRB2joFDVpXLkmfPpfgks7dEIJYPIrW4k3onwR+4nQz6vIaaqA==",
+      "path": "system.security.cryptography.pkcs/9.0.9",
+      "hashPath": "system.security.cryptography.pkcs.9.0.9.nupkg.sha512"
+    },
     "System.Security.Cryptography.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2046,6 +2207,34 @@
       "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "Telerik.Documents.Core/2025.4.1104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WSXAcPo8ooaP5eHtvL0hxNLDEUUdH0Uf0ZJVxGSTQgiKZHt/qCi43JkjdZusz8i1N2dmgV6m0EW0+WpACH9yTg==",
+      "path": "telerik.documents.core/2025.4.1104",
+      "hashPath": "telerik.documents.core.2025.4.1104.nupkg.sha512"
+    },
+    "Telerik.Documents.Fixed/2025.4.1104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fm3tSWdU3qt9XuVIeBLL8Phdrdfwfmx8Q9H82KCku8PnNSBQuNSAPvEHp10qUppj2lV6Bde/ThjxhR3XpRezUQ==",
+      "path": "telerik.documents.fixed/2025.4.1104",
+      "hashPath": "telerik.documents.fixed.2025.4.1104.nupkg.sha512"
+    },
+    "Telerik.Licensing/1.6.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3EGdYcfWvZyB9dvK2Dutty9vnQHoNbz/k7817rqUII4haNQrrtLSeXfIwYjBsTHO262S+9nG76TkNbZof1v7Kg==",
+      "path": "telerik.licensing/1.6.31",
+      "hashPath": "telerik.licensing.1.6.31.nupkg.sha512"
+    },
+    "Telerik.UI.for.Maui/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v0V998FUQIhnA5HxzfYktae0OzmEwYcmr752rfBK/QMtZd773/1TLEI1JbOZ80RUze3rjCiJMM0YMgmMarFkAw==",
+      "path": "telerik.ui.for.maui/12.0.0",
+      "hashPath": "telerik.ui.for.maui.12.0.0.nupkg.sha512"
     },
     "Microsoft.Web.WebView2.Core.Projection/1.0.3179.45": {
       "type": "reference",

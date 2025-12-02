@@ -331,6 +331,7 @@ C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debu
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\HarfBuzzSharp.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microcharts.Maui.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -379,7 +380,10 @@ C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debu
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OxyPlot.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OxyPlot.Maui.Skia.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.HarfBuzz.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.WinUI.Native.Projection.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Controls.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Core.dll
@@ -388,6 +392,14 @@ C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debu
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Charts.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Core.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.Pkcs.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Telerik.Documents.Core.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Telerik.Documents.Fixed.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Telerik.Licensing.Runtime.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Telerik.Maui.Controls.Compatibility.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Telerik.Maui.Controls.WinUI.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Telerik.Maui.Controls.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Telerik.Maui.Core.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -422,6 +434,7 @@ C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debu
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\libHarfBuzzSharp.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WebView2Loader.dll
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll
@@ -514,6 +527,8 @@ C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debu
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ExchangeRate-MAUIApp.AssemblyInfoInputs.cache
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ExchangeRate-MAUIApp.AssemblyInfo.cs
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ExchangeRate-MAUIApp.csproj.CoreCompileInputs.cache
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Telerik.Licensing.LicenseInfo.cs
+C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ExchangeRate-MAUIApp.sourcelink.json
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Exchange.E556A464.Up2Date
 C:\Users\marijad\source\repos\ExchangeRate-MAUIApp\ExchangeRate-MAUIApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ExchangeRate-MAUIApp.dll
